@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  25 MAY 2026 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  26 MAY 2026 10:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1371,11 +1371,11 @@ LaTeX Info: Redefining \% on input line 1.
 ] (introduccion.tex
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 27.
+Package pdftex.def Info: UTYP.png  used on input line 28.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 27.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 28.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1394,11 +1394,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 56.
+Package pdftex.def Info: UTYP.png  used on input line 52.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 56.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 52.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1868,9 +1868,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  98i,22n,107p,1716b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (22 pages, 2201851 bytes).
+Output written on main.pdf (22 pages, 2202556 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
+ 766 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
