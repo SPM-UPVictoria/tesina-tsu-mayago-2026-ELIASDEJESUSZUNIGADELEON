@@ -10,12 +10,20 @@
 \contentsline {subsection}{\numberline {1.4}Justificación}{3}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{4}{subsection.1.5}%
 \contentsline {subsubsection}{\numberline {1.5.1}Alcances}{4}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{4}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{4}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{4}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{5}{subsubsection.1.6.2}%
-\contentsline {section}{\numberline {2}Metodología}{7}{section.2}%
-\contentsline {section}{\numberline {3}Resultados}{10}{section.3}%
-\contentsline {section}{\numberline {4}Conclusiones}{11}{section.4}%
-\contentsline {section}{Bibliografía}{12}{section.4}%
-\contentsline {section}{Anexos}{12}{section.4}%
+\contentsline {paragraph}{Sobre la Migración Tecnológica}{4}{paragraph*.1}%
+\contentsline {paragraph}{Sobre la Optimización de Datos}{4}{paragraph*.2}%
+\contentsline {paragraph}{Sobre el Rediseño de Secciones}{4}{paragraph*.3}%
+\contentsline {paragraph}{Sobre la Integración de Herramientas}{5}{paragraph*.4}%
+\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{5}{subsubsection.1.5.2}%
+\contentsline {paragraph}{Limitaciones Técnicas}{5}{paragraph*.5}%
+\contentsline {paragraph}{Limitaciones de Alcance}{5}{paragraph*.6}%
+\contentsline {paragraph}{Limitaciones Temporales}{5}{paragraph*.7}%
+\contentsline {paragraph}{Limitaciones de Recursos}{5}{paragraph*.8}%
+\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{6}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{6}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{6}{subsubsection.1.6.2}%
+\contentsline {section}{\numberline {2}Metodología}{8}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{11}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{12}{section.4}%
+\contentsline {section}{Bibliografía}{13}{section.4}%
+\contentsline {section}{Anexos}{13}{section.4}%

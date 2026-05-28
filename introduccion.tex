@@ -69,12 +69,61 @@ Por lo anterior, este proyecto representa una inversión estratégica necesaria 
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+El presente proyecto contempla los siguientes aspectos dentro de su desarrollo:
+
+\paragraph{Sobre la Migración Tecnológica}
+\begin{itemize}
+    \item Migración de la plataforma actual (SharePoint 2013/2019) hacia SharePoint Online.
+    \item Validación de compatibilidad entre versiones y transferencia de estructuras de datos existentes.
+    \item Configuración de seguridad y permisos en la nueva plataforma.
+\end{itemize}
+
+\paragraph{Sobre la Optimización de Datos}
+\begin{itemize}
+    \item Análisis completo de la arquitectura de bases de datos actual, identificando redundancias y tablas duplicadas.
+    \item Consolidación de tablas redundantes para mejorar eficiencia y reducir consumo de recursos.
+    \item Optimización de consultas para reducir tiempos de respuesta del portal.
+\end{itemize}
+
+\paragraph{Sobre el Rediseño de Secciones}
+\begin{itemize}
+    \item Modernización visual e implementación de nuevas funcionalidades en secciones prioritarias (como el módulo de campus).
+    \item Reemplazo de HTML básico y estilos antiguos con frameworks modernos (Bootstrap y React).
+\end{itemize}
+
+\paragraph{Sobre la Integración de Herramientas}
+\begin{itemize}
+    \item Investigación y evaluación de herramientas digitales gratuitas y seguras que complementen funcionalidades.
+    \item Integración de APIs externas sin incrementar costos operacionales.
+\end{itemize}
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+\paragraph{Limitaciones Técnicas}
+\begin{itemize}
+    \item No se incluye el desarrollo de un nuevo framework de SharePoint. El proyecto trabaja con la plataforma SharePoint Online tal como se distribuye actualmente.
+    \item La optimización de datos está limitada a la estructura existente; no se contemplan cambios en sistemas administrativos internos integrados al portal.
+    \item El desempeño del portal dependerá de la infraestructura de servidores existente en la institución. Mejoras en performance más allá de optimizaciones de código requerirán upgrades de infraestructura no incluidos en este proyecto.
+\end{itemize}
+
+\paragraph{Limitaciones de Alcance}
+\begin{itemize}
+    \item Solo se modernizarán secciones prioritarias del portal identificadas durante el análisis inicial. Otras secciones no contempladas en el proyecto mantendrán su estructura actual.
+    \item No se incluye migración de datos históricos anteriores a la fecha de inicio del proyecto.
+    \item No se contempla el desarrollo de aplicaciones móviles nativas; el portal seguirá siendo accesible únicamente a través de navegador web.
+\end{itemize}
+
+\paragraph{Limitaciones Temporales}
+\begin{itemize}
+    \item El proyecto debe completarse dentro del período académico establecido (Mayo-Agosto 2026), lo que puede restringir la profundidad de ciertos módulos o la implementación de funcionalidades adicionales no críticas.
+\end{itemize}
+
+\paragraph{Limitaciones de Recursos}
+\begin{itemize}
+    \item Dependencia de las licencias y permisos de acceso existentes en SharePoint Online proporcionados por la institución.
+    \item El soporte y mantenimiento post-implementación dependerá de la disponibilidad del equipo de TI institucional.
+\end{itemize}
 
 \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 \label{sec:ejemplos_elementos}
