@@ -4,17 +4,7 @@
 \contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Antecedentes}{1}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Antecedentes de la Empresa}{1}{subsubsection.1.1.1}%
-\contentsline {paragraph}{Información General sobre la UAT}{1}{paragraph*.1}%
-\contentsline {paragraph}{Misión Institucional}{2}{paragraph*.2}%
-\contentsline {paragraph}{Visión Institucional}{2}{paragraph*.3}%
-\contentsline {paragraph}{El Portal Institucional: Situación Actual}{2}{paragraph*.4}%
-\contentsline {paragraph}{El Proyecto de Modernización}{3}{paragraph*.5}%
 \contentsline {subsubsection}{\numberline {1.1.2}Antecedentes Teóricos}{3}{subsubsection.1.1.2}%
-\contentsline {paragraph}{Migración de SharePoint: De Versiones Locales a Cloud}{3}{paragraph*.6}%
-\contentsline {paragraph}{Diseño Web Responsivo y Accesibilidad Digital}{4}{paragraph*.7}%
-\contentsline {paragraph}{Frontend Moderno: React y Bootstrap}{4}{paragraph*.8}%
-\contentsline {paragraph}{Optimización de Arquitectura de Datos}{4}{paragraph*.9}%
-\contentsline {paragraph}{Integración de APIs Externas}{5}{paragraph*.10}%
 \contentsline {subsubsection}{\numberline {1.1.3}Tabla Comparativa: Antes y Después}{5}{subsubsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.2}Definición del Problema}{7}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Objetivos}{7}{subsection.1.3}%
@@ -23,15 +13,7 @@
 \contentsline {subsection}{\numberline {1.4}Justificación}{8}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{9}{subsection.1.5}%
 \contentsline {subsubsection}{\numberline {1.5.1}Alcances}{9}{subsubsection.1.5.1}%
-\contentsline {paragraph}{Sobre la Migración Tecnológica}{9}{paragraph*.12}%
-\contentsline {paragraph}{Sobre la Optimización de Datos}{9}{paragraph*.13}%
-\contentsline {paragraph}{Sobre el Rediseño de Secciones}{9}{paragraph*.14}%
-\contentsline {paragraph}{Sobre la Integración de Herramientas}{10}{paragraph*.15}%
 \contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{10}{subsubsection.1.5.2}%
-\contentsline {paragraph}{Limitaciones Técnicas}{10}{paragraph*.16}%
-\contentsline {paragraph}{Limitaciones de Alcance}{10}{paragraph*.17}%
-\contentsline {paragraph}{Limitaciones Temporales}{10}{paragraph*.18}%
-\contentsline {paragraph}{Limitaciones de Recursos}{10}{paragraph*.19}%
 \contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{11}{subsection.1.6}%
 \contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{11}{subsubsection.1.6.1}%
 \contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{11}{subsubsection.1.6.2}%

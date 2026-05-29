@@ -15,19 +15,19 @@ A lo largo de este documento se detallan el análisis del problema actual, los o
 \subsubsection{Antecedentes de la Empresa}
 \label{subsec:antecedentes_empresa}
 
-\paragraph{Información General sobre la UAT}
+\subsubsection*{Información General sobre la UAT} 
 
 La Universidad Autónoma de Tamaulipas (UAT) es una institución de educación superior comprometida con la formación integral de profesionistas en el estado de Tamaulipas. Como universidad pública, la UAT se dedica a impulsar la excelencia académica, la innovación y la responsabilidad social, con presencia en múltiples campus y programas educativos en diferentes áreas del conocimiento.
 
-\paragraph{Misión Institucional}
+\subsubsection*{Misión Institucional}
 
 La misión de la UAT es \textit{``Formar profesionistas íntegros con un enfoque humanista, comprometidos con la transformación social y el impacto positivo en la comunidad. Impulsamos la excelencia académica, la innovación, la responsabilidad social y la equidad de género en todas nuestras actividades, propiciando la igualdad de oportunidades y el bienestar colectivo, mediante la vinculación, la generación, difusión y aplicación del conocimiento científico, la cultura, el deporte y las artes, ejerciendo la ética y nuestros valores institucionales.''}
 
-\paragraph{Visión Institucional}
+\subsubsection*{Visión Institucional}
 
 La visión de la UAT es \textit{``Ser una universidad incluyente, equitativa y socialmente responsable, protagonista con el desarrollo socioeconómico y ambiental del estado, dirigida hacia la internacionalización, comprometida con sus trabajadores y el futuro profesional de sus estudiantes en condiciones de igualdad, que genere y transfiera conocimiento innovador, la cultura, técnicas y tecnologías útiles a la sociedad bajo un enfoque de sustentabilidad.''}
 
-\paragraph{El Portal Institucional: Situación Actual}
+\subsubsection*{El Portal Institucional: Situación Actual}
 
 El portal institucional de la UAT constituye una herramienta estratégica para la comunicación, difusión de información y acceso a servicios para estudiantes, docentes, administrativos y público general. Sin embargo, actualmente opera sobre una plataforma tecnológica obsoleta (Microsoft SharePoint 2013/2019) con arquitectura legada que limita su capacidad funcional.
 
@@ -41,7 +41,7 @@ La infraestructura actual presenta limitaciones críticas \cite{microsoft2024sha
     \item \textbf{Seguridad comprometida:} SharePoint 2013/2019 ya no recibe actualizaciones de seguridad activas.
 \end{itemize}
 
-\paragraph{El Proyecto de Modernización}
+\subsubsection*{El Proyecto de Modernización}
 
 En el contexto de la misión institucional de innovación y transformación digital, se desarrolla el proyecto \textbf{\NombreProyecto}. Este proyecto contempla tres pilares principales: primero, la migración tecnológica desde SharePoint 2013/2019 hacia SharePoint Online; segundo, la optimización de la arquitectura de datos eliminando redundancias; y tercero, el rediseño moderno de secciones específicas integrando frameworks contemporáneos como React y Bootstrap.
 
@@ -50,68 +50,51 @@ La implementación de esta modernización contribuye directamente a los objetivo
 \subsubsection{Antecedentes Teóricos}
 \label{subsec:antecedentes_teoricos}
 
-\paragraph{Migración de SharePoint: De Versiones Locales a Cloud}
+\subsubsection*{Migración a la Nube y Evolución de SharePoint}
 
-Microsoft SharePoint es una plataforma de gestión de contenidos ampliamente utilizada en instituciones educativas y gubernamentales \cite{microsoft2024sharepoint}. Existen dos modelos operacionales: SharePoint Server (versiones 2013, 2016, 2019) instaladas localmente, y SharePoint Online, la versión moderna basada en cloud integrada a Office 365/Microsoft 365.
+La modernización de sistemas legados hacia entornos en la nube es una estrategia fundamental en la ingeniería de software contemporánea para reducir la deuda técnica, mejorar la escalabilidad y garantizar la seguridad de la información \cite{jamshidi2013cloud}. En este contexto, Microsoft SharePoint ha evolucionado desde sus modelos operacionales locales (SharePoint Server 2013, 2016, 2019) hacia un ecosistema moderno basado en la nube conocido como SharePoint Online \cite{microsoft2024sharepoint}.
 
-Las versiones locales presentan limitaciones importantes:
+Las versiones locales presentan limitaciones inherentes a su arquitectura tradicional \cite{microsoft2024online}:
 \begin{itemize}
-    \item Requieren infraestructura propia (servidores, mantenimiento, actualización).
-    \item No reciben actualizaciones de seguridad continuas.
-    \item Tienen funcionalidades limitadas comparadas con versiones modernas.
-    \item Implican costos operacionales significativos.
+    \item Dependencia de infraestructura física propia, lo que incrementa los costos de mantenimiento operacionales (OpEx) y de capital (CapEx).
+    \item Ciclos de actualización prolongados y fin del soporte de seguridad activo por parte del fabricante.
+    \item Dificultad para escalar horizontalmente los servidores ante picos de demanda institucional.
 \end{itemize}
 
-SharePoint Online ofrece ventajas estratégicas \cite{microsoft2024online}:
+Por el contrario, la migración a SharePoint Online ofrece ventajas estratégicas fuertemente alineadas con el paradigma del \textit{Cloud Computing}:
 \begin{itemize}
-    \item Actualizaciones de seguridad y funcionalidades automáticas.
-    \item Escalabilidad flexible sin inversión en infraestructura.
-    \item Integración con herramientas de Microsoft 365 (Teams, Power BI, etc.).
-    \item Mejor rendimiento global y disponibilidad con SLA garantizado.
-    \item Cumplimiento automático de normativas internacionales.
+    \item Actualizaciones continuas de seguridad y despliegue automático de nuevas funcionalidades (modelo \textit{evergreen}).
+    \item Escalabilidad elástica y alta disponibilidad con Acuerdos de Nivel de Servicio (SLA) garantizados por el proveedor.
+    \item Integración nativa con el ecosistema de productividad y análisis de Microsoft 365.
 \end{itemize}
 
-\paragraph{Diseño Web Responsivo y Accesibilidad Digital}
+\subsubsection*{Diseño Web Responsivo y Accesibilidad Digital}
 
-El diseño responsivo garantiza que un sitio web se adapte correctamente a diferentes tamaños de pantalla (computadoras, tablets, dispositivos móviles) \cite{marcotte2020responsive}. La accesibilidad digital se refiere a la capacidad de todos los usuarios, incluyendo personas con discapacidades, de acceder y usar contenido web efectivamente.
+El paradigma del diseño web responsivo (RWD) establece que las interfaces de usuario deben adaptarse fluidamente a las características físicas del dispositivo (resolución, tamaño de pantalla, orientación), garantizando una experiencia óptima sin necesidad de mantener múltiples versiones de un mismo sitio \cite{marcotte2014responsive}.
 
-Las normativas internacionales más relevantes son \cite{w3c2021wcag}:
+En paralelo, la accesibilidad digital asegura que los portales web sean utilizables por todas las personas, independientemente de sus capacidades físicas, sensoriales o cognitivas. El estándar internacional rector en esta materia son las Pautas de Accesibilidad para el Contenido Web (WCAG) \cite{w3c2018wcag}. El cumplimiento de estos estándares, específicamente el nivel AA, es imperativo para los portales de instituciones públicas y educativas, asegurando así la inclusión y el acceso equitativo a la información para toda la comunidad universitaria \cite{w3c2024evaluate}.
+
+\subsubsection*{Arquitectura Frontend: Single Page Applications (SPA) y Frameworks}
+
+Históricamente, los portales institucionales se construían bajo el paradigma de Aplicaciones de Múltiples Páginas (MPA), donde cada interacción del usuario requería que el servidor procesara, renderizara y enviara un documento HTML completo, resultando en tiempos de carga elevados y transiciones abruptas.
+
+Para resolver estas deficiencias de rendimiento, el proyecto de modernización adopta la arquitectura de \textit{Single Page Application} (SPA) \cite{mikowski2013single}. Las SPA mejoran drásticamente el rendimiento percibido y la fluidez interactiva, ya que, una vez cargada la estructura inicial, el sistema solo solicita y actualiza los datos necesarios mediante peticiones asíncronas en segundo plano, sin refrescar la página por completo. 
+
+Para implementar esta arquitectura se utiliza React, una librería de JavaScript basada en componentes reutilizables \cite{react2024facebook}. Asimismo, la capa de presentación visual se fortalece con Bootstrap, un framework CSS que acelera el desarrollo de interfaces responsivas y accesibles mediante sistemas de grillas y componentes modulares \cite{bootstrap2024}.
+
+\subsubsection*{Optimización de la Arquitectura de Datos}
+
+El rendimiento y la integridad funcional de cualquier portal moderno dependen críticamente del diseño eficiente de su base de datos \cite{silberschatz2020database}. Las arquitecturas legadas frecuentemente sufren de anomalías de actualización y redundancia de información debido a un diseño empírico y normalización deficiente.
+
+La optimización teórica de las estructuras de datos para este proyecto se fundamenta en los principios formales del modelo relacional \cite{codd1990relational}, aplicando:
 \begin{itemize}
-    \item \textbf{WCAG 2.1 (Web Content Accessibility Guidelines):} Estándar del W3C que define criterios de accesibilidad en tres niveles (A, AA, AAA).
-    \item \textbf{Directiva de Accesibilidad Digital (UE):} Obliga a instituciones públicas a cumplir WCAG 2.1 nivel AA mínimo.
+    \item \textbf{Normalización:} Proceso matemático y sistemático para eliminar la redundancia de datos y evitar dependencias inconsistentes.
+    \item \textbf{Indexación Estratégica:} Implementación de estructuras de datos auxiliares para acelerar los tiempos de respuesta en las consultas de lectura más frecuentes.
+    \item \textbf{Consolidación:} Reestructuración de esquemas para minimizar uniones (\textit{JOINs}) ineficientes entre tablas históricamente hiper-fragmentadas.
 \end{itemize}
 
-Un portal institucional moderno debe cumplir con estos estándares para garantizar inclusión y acceso equitativo a toda su comunidad \cite{henry2016just}.
-
-\paragraph{Frontend Moderno: React y Bootstrap}
-
-Los frameworks frontend modernos permiten construir interfaces de usuario interactivas y responsivas de manera eficiente \cite{react2024facebook}. React es una librería JavaScript que facilita componentes reutilizables, gestión eficiente del estado, y renderizado dinámico optimizado.
-
-Bootstrap es un framework CSS que proporciona \cite{bootstrap2024}:
-\begin{itemize}
-    \item Sistema de grillas responsivo.
-    \item Componentes preconstruidos (botones, formularios, navegación).
-    \item Utilidades CSS para rapidez de desarrollo.
-    \item Cumplimiento de estándares de accesibilidad por defecto.
-\end{itemize}
-
-La combinación de React + Bootstrap permite desarrollar interfaces modernas, accesibles y mantenibles en tiempo corto.
-
-\paragraph{Optimización de Arquitectura de Datos}
-
-La arquitectura de bases de datos impacta directamente en el rendimiento del portal \cite{silberschatz2020database}. Las limitaciones comunes incluyen redundancia de datos, consultas ineficientes, estructura no normalizada y falta de índices.
-
-La optimización incluye \cite{codd1990relational}:
-\begin{itemize}
-    \item \textbf{Normalización:} Aplicación rigurosa de formas normales.
-    \item \textbf{Consolidación de tablas:} Eliminación de redundancias.
-    \item \textbf{Indexación estratégica:} Creación de índices en campos frecuentemente consultados.
-    \item \textbf{Caché de consultas:} Reducción de consultas repetitivas.
-\end{itemize}
-
-\paragraph{Integración de APIs Externas}
-
-Los portales modernos se integran con servicios externos mediante APIs \cite{fielding2000rest}. Ejemplos relevantes incluyen mapas interactivos (OpenStreetMap, Google Maps), redes sociales (Instagram, YouTube), servicios de email, autenticación (OAuth, SAML) y análisis web \cite{openstreetmap2024contributors}.
+\subsubsection*{Interoperabilidad y Arquitectura de Servicios REST}
+La capacidad de un portal moderno para integrarse con sistemas externos se fundamenta teóricamente en la Transferencia de Estado Representacional (REST) \cite{fielding2000rest}. Mediante el consumo de APIs RESTful, el portal puede delegar funcionalidades especializadas a servicios de terceros. Ejemplos prácticos de esta interoperabilidad incluyen la renderización de mapas interactivos de los campus \cite{openstreetmap2024contributors}, la autenticación delegada y la integración de feeds de redes sociales, mejorando sustancialmente la riqueza del sistema sin sobrecargar la infraestructura central de la universidad.
 
 \subsubsection{Tabla Comparativa: Antes y Después}
 \label{subsec:tabla_comparativa}
@@ -209,27 +192,27 @@ Por lo anterior, este proyecto representa una inversión estratégica necesaria 
 
 El presente proyecto contempla los siguientes aspectos dentro de su desarrollo:
 
-\paragraph{Sobre la Migración Tecnológica}
+\subsubsection*{Sobre la Migración Tecnológica}
 \begin{itemize}
     \item Migración de la plataforma actual (SharePoint 2013/2019) hacia SharePoint Online.
     \item Validación de compatibilidad entre versiones y transferencia de estructuras de datos existentes.
     \item Configuración de seguridad y permisos en la nueva plataforma.
 \end{itemize}
 
-\paragraph{Sobre la Optimización de Datos}
+\subsubsection*{Sobre la Optimización de Datos}
 \begin{itemize}
     \item Análisis completo de la arquitectura de bases de datos actual, identificando redundancias y tablas duplicadas.
     \item Consolidación de tablas redundantes para mejorar eficiencia y reducir consumo de recursos.
     \item Optimización de consultas para reducir tiempos de respuesta del portal.
 \end{itemize}
 
-\paragraph{Sobre el Rediseño de Secciones}
+\subsubsection*{Sobre el Rediseño de Secciones}
 \begin{itemize}
     \item Modernización visual e implementación de nuevas funcionalidades en secciones prioritarias (como el módulo de campus).
     \item Reemplazo de HTML básico y estilos antiguos con frameworks modernos (Bootstrap y React).
 \end{itemize}
 
-\paragraph{Sobre la Integración de Herramientas}
+\subsubsection*{Sobre la Integración de Herramientas}
 \begin{itemize}
     \item Investigación y evaluación de herramientas digitales gratuitas y seguras que complementen funcionalidades.
     \item Integración de APIs externas sin incrementar costos operacionales.
@@ -238,26 +221,26 @@ El presente proyecto contempla los siguientes aspectos dentro de su desarrollo:
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-\paragraph{Limitaciones Técnicas}
+\subsubsection*{Limitaciones Técnicas}
 \begin{itemize}
     \item No se incluye el desarrollo de un nuevo framework de SharePoint. El proyecto trabaja con la plataforma SharePoint Online tal como se distribuye actualmente.
     \item La optimización de datos está limitada a la estructura existente; no se contemplan cambios en sistemas administrativos internos integrados al portal.
     \item El desempeño del portal dependerá de la infraestructura de servidores existente en la institución. Mejoras en performance más allá de optimizaciones de código requerirán upgrades de infraestructura no incluidos en este proyecto.
 \end{itemize}
 
-\paragraph{Limitaciones de Alcance}
+\subsubsection*{Limitaciones de Alcance}
 \begin{itemize}
     \item Solo se modernizarán secciones prioritarias del portal identificadas durante el análisis inicial. Otras secciones no contempladas en el proyecto mantendrán su estructura actual.
     \item No se incluye migración de datos históricos anteriores a la fecha de inicio del proyecto.
     \item No se contempla el desarrollo de aplicaciones móviles nativas; el portal seguirá siendo accesible únicamente a través de navegador web.
 \end{itemize}
 
-\paragraph{Limitaciones Temporales}
+\subsubsection*{Limitaciones Temporales}
 \begin{itemize}
     \item El proyecto debe completarse dentro del período académico establecido (Mayo-Agosto 2026), lo que puede restringir la profundidad de ciertos módulos o la implementación de funcionalidades adicionales no críticas.
 \end{itemize}
 
-\paragraph{Limitaciones de Recursos}
+\subsubsection*{Limitaciones de Recursos}
 \begin{itemize}
     \item Dependencia de las licencias y permisos de acceso existentes en SharePoint Online proporcionados por la institución.
     \item El soporte y mantenimiento post-implementación dependerá de la disponibilidad del equipo de TI institucional.
@@ -319,3 +302,4 @@ Las imágenes, gráficos o diagramas son cruciales para complementar la explicac
 Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
 
 Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
+
