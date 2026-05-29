@@ -12,7 +12,145 @@ A lo largo de este documento se detallan el análisis del problema actual, los o
 \subsection{Antecedentes}
 \label{sec:antecedentes}
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+\subsubsection{Antecedentes de la Empresa}
+\label{subsec:antecedentes_empresa}
+
+\paragraph{Información General sobre la UAT}
+
+La Universidad Autónoma de Tamaulipas (UAT) es una institución de educación superior comprometida con la formación integral de profesionistas en el estado de Tamaulipas. Como universidad pública, la UAT se dedica a impulsar la excelencia académica, la innovación y la responsabilidad social, con presencia en múltiples campus y programas educativos en diferentes áreas del conocimiento.
+
+\paragraph{Misión Institucional}
+
+La misión de la UAT es \textit{``Formar profesionistas íntegros con un enfoque humanista, comprometidos con la transformación social y el impacto positivo en la comunidad. Impulsamos la excelencia académica, la innovación, la responsabilidad social y la equidad de género en todas nuestras actividades, propiciando la igualdad de oportunidades y el bienestar colectivo, mediante la vinculación, la generación, difusión y aplicación del conocimiento científico, la cultura, el deporte y las artes, ejerciendo la ética y nuestros valores institucionales.''}
+
+\paragraph{Visión Institucional}
+
+La visión de la UAT es \textit{``Ser una universidad incluyente, equitativa y socialmente responsable, protagonista con el desarrollo socioeconómico y ambiental del estado, dirigida hacia la internacionalización, comprometida con sus trabajadores y el futuro profesional de sus estudiantes en condiciones de igualdad, que genere y transfiera conocimiento innovador, la cultura, técnicas y tecnologías útiles a la sociedad bajo un enfoque de sustentabilidad.''}
+
+\paragraph{El Portal Institucional: Situación Actual}
+
+El portal institucional de la UAT constituye una herramienta estratégica para la comunicación, difusión de información y acceso a servicios para estudiantes, docentes, administrativos y público general. Sin embargo, actualmente opera sobre una plataforma tecnológica obsoleta (Microsoft SharePoint 2013/2019) con arquitectura legada que limita su capacidad funcional.
+
+La infraestructura actual presenta limitaciones críticas \cite{microsoft2024sharepoint}:
+
+\begin{itemize}
+    \item \textbf{Tecnología desactualizada:} Basada en HTML básico con estilos antiguos que no responden a estándares web contemporáneos.
+    \item \textbf{Redundancia en datos:} Tablas duplicadas y estructuras ineficientes que consumen recursos innecesarios.
+    \item \textbf{Interfaces no accesibles:} No cumple con normativas de accesibilidad web (WCAG) y responsividad limitada.
+    \item \textbf{Mantenimiento complejo:} Código legado que dificulta la implementación de nuevas funcionalidades.
+    \item \textbf{Seguridad comprometida:} SharePoint 2013/2019 ya no recibe actualizaciones de seguridad activas.
+\end{itemize}
+
+\paragraph{El Proyecto de Modernización}
+
+En el contexto de la misión institucional de innovación y transformación digital, se desarrolla el proyecto \textbf{\NombreProyecto}. Este proyecto contempla tres pilares principales: primero, la migración tecnológica desde SharePoint 2013/2019 hacia SharePoint Online; segundo, la optimización de la arquitectura de datos eliminando redundancias; y tercero, el rediseño moderno de secciones específicas integrando frameworks contemporáneos como React y Bootstrap.
+
+La implementación de esta modernización contribuye directamente a los objetivos institucionales de inclusión, accesibilidad digital y transformación tecnológica, alineándose con la visión de una ``universidad incluyente, equitativa y socialmente responsable.''
+
+\subsubsection{Antecedentes Teóricos}
+\label{subsec:antecedentes_teoricos}
+
+\paragraph{Migración de SharePoint: De Versiones Locales a Cloud}
+
+Microsoft SharePoint es una plataforma de gestión de contenidos ampliamente utilizada en instituciones educativas y gubernamentales \cite{microsoft2024sharepoint}. Existen dos modelos operacionales: SharePoint Server (versiones 2013, 2016, 2019) instaladas localmente, y SharePoint Online, la versión moderna basada en cloud integrada a Office 365/Microsoft 365.
+
+Las versiones locales presentan limitaciones importantes:
+\begin{itemize}
+    \item Requieren infraestructura propia (servidores, mantenimiento, actualización).
+    \item No reciben actualizaciones de seguridad continuas.
+    \item Tienen funcionalidades limitadas comparadas con versiones modernas.
+    \item Implican costos operacionales significativos.
+\end{itemize}
+
+SharePoint Online ofrece ventajas estratégicas \cite{microsoft2024online}:
+\begin{itemize}
+    \item Actualizaciones de seguridad y funcionalidades automáticas.
+    \item Escalabilidad flexible sin inversión en infraestructura.
+    \item Integración con herramientas de Microsoft 365 (Teams, Power BI, etc.).
+    \item Mejor rendimiento global y disponibilidad con SLA garantizado.
+    \item Cumplimiento automático de normativas internacionales.
+\end{itemize}
+
+\paragraph{Diseño Web Responsivo y Accesibilidad Digital}
+
+El diseño responsivo garantiza que un sitio web se adapte correctamente a diferentes tamaños de pantalla (computadoras, tablets, dispositivos móviles) \cite{marcotte2020responsive}. La accesibilidad digital se refiere a la capacidad de todos los usuarios, incluyendo personas con discapacidades, de acceder y usar contenido web efectivamente.
+
+Las normativas internacionales más relevantes son \cite{w3c2021wcag}:
+\begin{itemize}
+    \item \textbf{WCAG 2.1 (Web Content Accessibility Guidelines):} Estándar del W3C que define criterios de accesibilidad en tres niveles (A, AA, AAA).
+    \item \textbf{Directiva de Accesibilidad Digital (UE):} Obliga a instituciones públicas a cumplir WCAG 2.1 nivel AA mínimo.
+\end{itemize}
+
+Un portal institucional moderno debe cumplir con estos estándares para garantizar inclusión y acceso equitativo a toda su comunidad \cite{henry2016just}.
+
+\paragraph{Frontend Moderno: React y Bootstrap}
+
+Los frameworks frontend modernos permiten construir interfaces de usuario interactivas y responsivas de manera eficiente \cite{react2024facebook}. React es una librería JavaScript que facilita componentes reutilizables, gestión eficiente del estado, y renderizado dinámico optimizado.
+
+Bootstrap es un framework CSS que proporciona \cite{bootstrap2024}:
+\begin{itemize}
+    \item Sistema de grillas responsivo.
+    \item Componentes preconstruidos (botones, formularios, navegación).
+    \item Utilidades CSS para rapidez de desarrollo.
+    \item Cumplimiento de estándares de accesibilidad por defecto.
+\end{itemize}
+
+La combinación de React + Bootstrap permite desarrollar interfaces modernas, accesibles y mantenibles en tiempo corto.
+
+\paragraph{Optimización de Arquitectura de Datos}
+
+La arquitectura de bases de datos impacta directamente en el rendimiento del portal \cite{silberschatz2020database}. Las limitaciones comunes incluyen redundancia de datos, consultas ineficientes, estructura no normalizada y falta de índices.
+
+La optimización incluye \cite{codd1990relational}:
+\begin{itemize}
+    \item \textbf{Normalización:} Aplicación rigurosa de formas normales.
+    \item \textbf{Consolidación de tablas:} Eliminación de redundancias.
+    \item \textbf{Indexación estratégica:} Creación de índices en campos frecuentemente consultados.
+    \item \textbf{Caché de consultas:} Reducción de consultas repetitivas.
+\end{itemize}
+
+\paragraph{Integración de APIs Externas}
+
+Los portales modernos se integran con servicios externos mediante APIs \cite{fielding2000rest}. Ejemplos relevantes incluyen mapas interactivos (OpenStreetMap, Google Maps), redes sociales (Instagram, YouTube), servicios de email, autenticación (OAuth, SAML) y análisis web \cite{openstreetmap2024contributors}.
+
+\subsubsection{Tabla Comparativa: Antes y Después}
+\label{subsec:tabla_comparativa}
+
+Con el fin de evidenciar las mejoras que introduce el presente proyecto, en la Tabla \ref{tab:comparativa_uat} se contrastan los procesos y características del portal actual versus la solución propuesta.
+
+\begin{table}[H]
+\centering
+\caption{Comparativa entre el Portal Actual (SharePoint 2013/2019) y la Solución Modernizada (SharePoint Online + Frameworks Modernos)}
+\label{tab:comparativa_uat}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspecto} & \textbf{Antes (SharePoint 2013/2019 + HTML Básico)} & \textbf{Después (SharePoint Online + Modernización)} \\
+\hline
+\textbf{Stack Tecnológico} & HTML5 básico, CSS inline, JavaScript legacy & React, Bootstrap, TypeScript, arquitectura modular \\
+\hline
+\textbf{Accesibilidad Web} & No implementada, interfaz no inclusiva & WCAG 2.1 AA, diseño inclusivo \\
+\hline
+\textbf{Responsividad} & Limitada, requiere versión móvil separada & Diseño responsivo completo (desktop, tablet, móvil) \\
+\hline
+\textbf{Base de Datos} & Tablas redundantes, normalización incompleta & Arquitectura optimizada, normalización completa \\
+\hline
+\textbf{Tiempo de Respuesta} & 3-5 segundos en consultas complejas & <1 segundo en promedio \\
+\hline
+\textbf{Integraciones} & Manuales, limitadas & Automáticas vía APIs (mapas, redes sociales) \\
+\hline
+\textbf{Seguridad} & Sin actualizaciones activas, vulnerabilidades conocidas & Actualizaciones automáticas, SSL/TLS, compliance moderno \\
+\hline
+\textbf{Mantenibilidad} & Código legado, difícil de modificar & Componentes modulares, fácil de extender \\
+\hline
+\textbf{Disponibilidad} & 99.5\% (infraestructura local) & 99.9\%+ (cloud con SLA garantizado) \\
+\hline
+\textbf{Escalabilidad} & Limitada por hardware local & Elástica, crece con demanda \\
+\hline
+\textbf{Experiencia de Usuario} & Interfaz desactualizada, lenta, poco intuitiva & Moderna, fluida, intuitiva, accesible \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Definición del Problema}
 \label{sec:problema}
