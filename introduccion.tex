@@ -15,7 +15,7 @@ A lo largo de este documento se detallan el análisis del problema actual, los o
 \subsubsection{Antecedentes de la Empresa}
 \label{subsec:antecedentes_empresa}
 
-\subsubsection*{Información General sobre la UAT} 
+\subsubsection*{Información General sobre la UAT}
 
 La Universidad Autónoma de Tamaulipas (UAT) es una institución de educación superior comprometida con la formación integral de profesionistas en el estado de Tamaulipas. Como universidad pública, la UAT se dedica a impulsar la excelencia académica, la innovación y la responsabilidad social, con presencia en múltiples campus y programas educativos en diferentes áreas del conocimiento.
 
@@ -94,6 +94,7 @@ La optimización teórica de las estructuras de datos para este proyecto se fund
 \end{itemize}
 
 \subsubsection*{Interoperabilidad y Arquitectura de Servicios REST}
+
 La capacidad de un portal moderno para integrarse con sistemas externos se fundamenta teóricamente en la Transferencia de Estado Representacional (REST) \cite{fielding2000rest}. Mediante el consumo de APIs RESTful, el portal puede delegar funcionalidades especializadas a servicios de terceros. Ejemplos prácticos de esta interoperabilidad incluyen la renderización de mapas interactivos de los campus \cite{openstreetmap2024contributors}, la autenticación delegada y la integración de feeds de redes sociales, mejorando sustancialmente la riqueza del sistema sin sobrecargar la infraestructura central de la universidad.
 
 \subsubsection{Tabla Comparativa: Antes y Después}
@@ -117,8 +118,6 @@ Con el fin de evidenciar las mejoras que introduce el presente proyecto, en la T
 \textbf{Responsividad} & Limitada, requiere versión móvil separada & Diseño responsivo completo (desktop, tablet, móvil) \\
 \hline
 \textbf{Base de Datos} & Tablas redundantes, normalización incompleta & Arquitectura optimizada, normalización completa \\
-\hline
-\textbf{Tiempo de Respuesta} & 3-5 segundos en consultas complejas & <1 segundo en promedio \\
 \hline
 \textbf{Integraciones} & Manuales, limitadas & Automáticas vía APIs (mapas, redes sociales) \\
 \hline
@@ -246,6 +245,56 @@ El presente proyecto contempla los siguientes aspectos dentro de su desarrollo:
     \item El soporte y mantenimiento post-implementación dependerá de la disponibilidad del equipo de TI institucional.
 \end{itemize}
 
+\subsection{Temas Tentativos para el Marco Teórico}
+\label{sec:temas_tentativos}
+
+A continuación se presentan los temas tentativos que conformarán el marco teórico del proyecto, organizados de manera lógica para sustentar las decisiones técnicas y metodológicas adoptadas durante la modernización del portal institucional.
+
+\begin{table}[H]
+\centering
+\caption{Temas tentativos para el desarrollo del marco teórico}
+\label{tab:temas_tentativos}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{5.5cm}|p{8.5cm}|}
+\hline
+\textbf{Tema Principal} & \textbf{Subtemas Propuestos} \\
+\hline
+1. Fundamentos de Migración y Cloud Computing & 
+- Beneficios de la migración de sistemas legados. \newline
+- Modelos de servicios en la nube (SaaS, PaaS, IaaS). \\
+\hline
+2. Evolución de Microsoft SharePoint & 
+- Limitaciones de arquitecturas On-Premises. \newline
+- Características y ventajas de SharePoint Online. \\
+\hline
+3. Arquitectura de Sistemas Web Modernos & 
+- Transición a Single Page Applications (SPA). \newline
+- Arquitectura basada en componentes. \\
+\hline
+4. Frameworks y Tecnologías Frontend & 
+- Fundamentos de React: Renderizado dinámico y estado. \newline
+- Integración de herramientas de desarrollo modernas. \\
+\hline
+5. Diseño Web Responsivo (RWD) & 
+- Principios de adaptabilidad y enfoque Mobile-first. \newline
+- Frameworks CSS (Bootstrap) y sistemas de grillas. \\
+\hline
+6. Accesibilidad e Inclusión Digital & 
+- Estándares y pautas WCAG 2.1. \newline
+- Implementación y pruebas de diseño inclusivo. \\
+\hline
+7. Optimización de Bases de Datos & 
+- Modelo relacional y principios de normalización. \newline
+- Indexación y alto rendimiento en consultas web. \\
+\hline
+8. Interoperabilidad y Servicios REST & 
+- Principios fundamentales de la arquitectura RESTful. \newline
+- Consumo e integración de APIs de terceros. \\
+\hline
+\end{tabular}
+\end{table}
+
+
 \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 \label{sec:ejemplos_elementos}
 
@@ -302,4 +351,3 @@ Las imágenes, gráficos o diagramas son cruciales para complementar la explicac
 Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
 
 Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
-

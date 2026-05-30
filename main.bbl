@@ -360,11 +360,8 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.emprendepyme.net/que-es-un-sistema-de-informacion.html}}
       \field{title}{¿Que es un sistema de información?-Definición de sistema de información}
-      \field{urlday}{28}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
       \field{year}{2018}
-      \field{urldateera}{ce}
+      \warn{\item misc entry 'Sistema:2018:Ivan' (Referencias.bib): Invalid format '28-11-2018' of date field 'urldate' - ignoring}
     \endentry
     \entry{laudon2020}{book}{}
       \name{author}{2}{}{%
