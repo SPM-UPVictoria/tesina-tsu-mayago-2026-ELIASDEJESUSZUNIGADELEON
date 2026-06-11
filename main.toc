@@ -15,11 +15,8 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Alcances}{9}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{10}{subsubsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.6}Temas Tentativos para el Marco Teórico}{11}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Ejemplos de Tablas e Inclusión de Imágenes}{13}{subsection.1.7}%
-\contentsline {subsubsection}{\numberline {1.7.1}Inclusión de Tablas}{13}{subsubsection.1.7.1}%
-\contentsline {subsubsection}{\numberline {1.7.2}Inclusión de Imágenes}{13}{subsubsection.1.7.2}%
-\contentsline {section}{\numberline {2}Metodología}{15}{section.2}%
-\contentsline {section}{\numberline {3}Resultados}{18}{section.3}%
-\contentsline {section}{\numberline {4}Conclusiones}{19}{section.4}%
-\contentsline {section}{Bibliografía}{20}{section.4}%
-\contentsline {section}{Anexos}{22}{section.4}%
+\contentsline {section}{\numberline {2}Metodología}{13}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{14}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{15}{section.4}%
+\contentsline {section}{Bibliografía}{16}{section.4}%
+\contentsline {section}{Anexos}{17}{section.4}%

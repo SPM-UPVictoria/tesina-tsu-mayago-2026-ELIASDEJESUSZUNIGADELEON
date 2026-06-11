@@ -2375,16 +2375,6 @@
     <bcf:citekey order="12" intorder="1">codd1990relational</bcf:citekey>
     <bcf:citekey order="13" intorder="1">fielding2000rest</bcf:citekey>
     <bcf:citekey order="14" intorder="1">openstreetmap2024contributors</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Sistema:2018:Ivan</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">laudon2020</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">stair2018</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">turban2019</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">davenport2018</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">ward2016</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">whitman2018</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">heeks2006</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Microsoft:Concepto</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Microsoft:Concepto</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
