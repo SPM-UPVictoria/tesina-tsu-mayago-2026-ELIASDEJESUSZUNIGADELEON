@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  11 JUN 2026 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  15 JUN 2026 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1594,11 +1594,11 @@ LaTeX Info: Redefining \% on input line 1.
 ] (introduccion.tex
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 25.
+Package pdftex.def Info: UTYP.png  used on input line 13.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 25.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 13.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1617,11 +1617,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 42.
+Package pdftex.def Info: UTYP.png  used on input line 33.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 42.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 33.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1638,11 +1638,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 67.
+Package pdftex.def Info: UTYP.png  used on input line 55.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 67.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 55.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1659,11 +1659,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 85.
+Package pdftex.def Info: UTYP.png  used on input line 76.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 85.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 76.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1678,72 +1678,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\T1/cmr/bx/n/12 Antes (Sha-re-Point
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/cmr/bx/n/12 2013/2019 + HTML
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-[]|\T1/cmr/bx/n/12 Después (Sha-re-Point
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 112--113
-\T1/cmr/bx/n/12 On-li-ne + Mo-der-ni-za-
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 114--115
-[]|\T1/cmr/m/n/12 React, Boots-trap, Ty-peS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\T1/cmr/bx/n/12 Accesibilidad
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-[]|\T1/cmr/m/n/12 Arquitectura op-ti-mi-za-da,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-[]|\T1/cmr/m/n/12 Actualizaciones au-to-má-ti-
- []
-
-
-Overfull \hbox (4.08514pt too wide) in paragraph at lines 126--126
-[]|\T1/cmr/bx/n/12 Mantenibilidad| 
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 126--126
-[]|\T1/cmr/m/n/12 Código le-ga-do, di-fí-cil de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-[]|\T1/cmr/m/n/12 Componentes mo-du-la-res,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-[]|\T1/cmr/bx/n/12 Experiencia
- []
-
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 136.
+Package pdftex.def Info: UTYP.png  used on input line 96.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 136.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 96.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1758,13 +1699,72 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/cmr/bx/n/12 Antes (Sha-re-Point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/cmr/bx/n/12 2013/2019 + HTML
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]|\T1/cmr/bx/n/12 Después (Sha-re-Point
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 120--121
+\T1/cmr/bx/n/12 On-li-ne + Mo-der-ni-za-
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 122--123
+[]|\T1/cmr/m/n/12 React, Boots-trap, Ty-peS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/cmr/bx/n/12 Accesibilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]|\T1/cmr/m/n/12 Arquitectura op-ti-mi-za-da,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]|\T1/cmr/m/n/12 Actualizaciones au-to-má-ti-
+ []
+
+
+Overfull \hbox (4.08514pt too wide) in paragraph at lines 134--134
+[]|\T1/cmr/bx/n/12 Mantenibilidad| 
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 134--134
+[]|\T1/cmr/m/n/12 Código le-ga-do, di-fí-cil de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+[]|\T1/cmr/m/n/12 Componentes mo-du-la-res,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/cmr/bx/n/12 Experiencia
+ []
+
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 141.
+Package pdftex.def Info: UTYP.png  used on input line 144.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 141.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 144.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1781,11 +1781,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 167.
+Package pdftex.def Info: UTYP.png  used on input line 149.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 167.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 149.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1802,11 +1802,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 193.
+Package pdftex.def Info: UTYP.png  used on input line 175.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 193.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 175.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1823,11 +1823,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 225.
+Package pdftex.def Info: UTYP.png  used on input line 201.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 225.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 201.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1844,11 +1844,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 251.
+Package pdftex.def Info: UTYP.png  used on input line 233.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 251.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 233.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1863,22 +1863,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [10]
-Underfull \hbox (badness 1189) in paragraph at lines 269--269
-[]|\T1/cmr/m/n/12 3. Ar-qui-tec-tu-ra de Sis-te-mas
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 277--277
-[]|\T1/cmr/m/n/12 5. Di-se-ño Web Res-pon-si-vo
- []
-
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 295.
+Package pdftex.def Info: UTYP.png  used on input line 259.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 295.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 259.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -1892,7 +1883,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[11])
+[11]
+Underfull \hbox (badness 1189) in paragraph at lines 277--277
+[]|\T1/cmr/m/n/12 3. Ar-qui-tec-tu-ra de Sis-te-mas
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 285--285
+[]|\T1/cmr/m/n/12 5. Di-se-ño Web Res-pon-si-vo
+ []
+
+File: UTYP.png Graphic file (type png)
+<use UTYP.png>
+Package pdftex.def Info: UTYP.png  used on input line 303.
+(pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
+File: LogoUPV_2023.png Graphic file (type png)
+<use LogoUPV_2023.png>
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 303.
+(pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
+
+Overfull \hbox (15.11841pt too wide) has occurred while \output is active
+[]|[]| 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.02916pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.02916pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
+
+[12])
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 348.
@@ -1913,7 +1934,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[12] (metodologia.tex)
+[13] (metodologia.tex)
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 351.
@@ -1934,7 +1955,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[13
+[14
 
 ] (resultados.tex)
 File: UTYP.png Graphic file (type png)
@@ -1957,7 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[14
+[15
 
 ] (conclusiones.tex)
 File: UTYP.png Graphic file (type png)
@@ -1980,7 +2001,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[15
+[16
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
@@ -2008,17 +2029,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[16
+[17
 
 ]
-<documentosDigitalizados/SeguroFacultativo.pdf, id=280, 614.295pt x 845.1575pt>
+<documentosDigitalizados/SeguroFacultativo.pdf, id=296, 614.295pt x 845.1575pt>
 
 File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 <use documentosDigitalizados/SeguroFacultativo.pdf>
 Package pdftex.def Info: documentosDigitalizados/SeguroFacultativo.pdf  used on
  input line 374.
 (pdftex.def)             Requested size: 614.29349pt x 845.15544pt.
-<documentosDigitalizados/SeguroFacultativo.pdf, id=282, page=1, 614.295pt x 845
+<documentosDigitalizados/SeguroFacultativo.pdf, id=298, page=1, 614.295pt x 845
 .1575pt>
 File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 <use documentosDigitalizados/SeguroFacultativo.pdf, page 1>
@@ -2045,18 +2066,18 @@ File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 Package pdftex.def Info: documentosDigitalizados/SeguroFacultativo.pdf , page1 
 used on input line 374.
 (pdftex.def)             Requested size: 577.9154pt x 795.10587pt.
- [17
+ [18
 
 
  <./documentosDigitalizados/SeguroFacultativo.pdf>]
-<documentosDigitalizados/CartaPresentacion.pdf, id=300, 597.23125pt x 845.1575p
+<documentosDigitalizados/CartaPresentacion.pdf, id=316, 597.23125pt x 845.1575p
 t>
 File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaPresentacion.pdf>
 Package pdftex.def Info: documentosDigitalizados/CartaPresentacion.pdf  used on
  input line 382.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<documentosDigitalizados/CartaPresentacion.pdf, id=302, page=1, 597.23125pt x 8
+<documentosDigitalizados/CartaPresentacion.pdf, id=318, page=1, 597.23125pt x 8
 45.1575pt>
 File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaPresentacion.pdf, page 1>
@@ -2083,18 +2104,18 @@ File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 Package pdftex.def Info: documentosDigitalizados/CartaPresentacion.pdf , page1 
 used on input line 382.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [18
+ [19
 
 
  <./documentosDigitalizados/CartaPresentacion.pdf>]
-<documentosDigitalizados/CartaAceptacion.pdf, id=310, 597.23125pt x 845.1575pt>
+<documentosDigitalizados/CartaAceptacion.pdf, id=327, 597.23125pt x 845.1575pt>
 
 File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaAceptacion.pdf>
 Package pdftex.def Info: documentosDigitalizados/CartaAceptacion.pdf  used on i
 nput line 387.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<documentosDigitalizados/CartaAceptacion.pdf, id=312, page=1, 597.23125pt x 845
+<documentosDigitalizados/CartaAceptacion.pdf, id=329, page=1, 597.23125pt x 845
 .1575pt>
 File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaAceptacion.pdf, page 1>
@@ -2121,17 +2142,17 @@ File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 Package pdftex.def Info: documentosDigitalizados/CartaAceptacion.pdf , page1 us
 ed on input line 387.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [19
+ [20
 
 
  <./documentosDigitalizados/CartaAceptacion.pdf>]
-<documentosDigitalizados/CartaLiberacion.pdf, id=321, 614.295pt x 794.97pt>
+<documentosDigitalizados/CartaLiberacion.pdf, id=337, 614.295pt x 794.97pt>
 File: documentosDigitalizados/CartaLiberacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaLiberacion.pdf>
 Package pdftex.def Info: documentosDigitalizados/CartaLiberacion.pdf  used on i
 nput line 392.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<documentosDigitalizados/CartaLiberacion.pdf, id=323, page=1, 614.295pt x 794.9
+<documentosDigitalizados/CartaLiberacion.pdf, id=339, page=1, 614.295pt x 794.9
 7pt>
 File: documentosDigitalizados/CartaLiberacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaLiberacion.pdf, page 1>
@@ -2158,7 +2179,7 @@ File: documentosDigitalizados/CartaLiberacion.pdf Graphic file (type pdf)
 Package pdftex.def Info: documentosDigitalizados/CartaLiberacion.pdf , page1 us
 ed on input line 392.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [20
+ [21
 
 
  <./documentosDigitalizados/CartaLiberacion.pdf>]
@@ -2186,7 +2207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[21
+[22
 
 ]
 File: UTYP.png Graphic file (type png)
@@ -2209,7 +2230,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[22]
+[23]
 Underfull \hbox (badness 1189) in paragraph at lines 443--444
 \T1/cmr/m/n/10 tie-nen fon-do cla-ro, le-
  []
@@ -2249,7 +2270,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[23
+[24
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -2267,10 +2288,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45641 strings out of 474486
- 953323 string characters out of 5753570
+ 45650 strings out of 474486
+ 953620 string characters out of 5753570
  1949542 words of memory out of 5000000
- 67214 multiletter control sequences out of 15000+600000
+ 67220 multiletter control sequences out of 15000+600000
  573243 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,22n,107p,1632b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2286,9 +2307,9 @@ eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\resen\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\resen\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\resen\
 AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (29 pages, 1837127 bytes).
+Output written on main.pdf (30 pages, 1845007 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

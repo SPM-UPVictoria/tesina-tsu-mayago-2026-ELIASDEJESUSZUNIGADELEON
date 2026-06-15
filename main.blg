@@ -1,16 +1,14 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[192] biber-MSWIN64:340> INFO - === 
-[225] Biber.pm:419> INFO - Reading 'main.bcf'
-[314] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
-[328] Biber.pm:4419> INFO - Processing section 0
-[339] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[384] bibtex.pm:1713> INFO - LaTeX decoding ...
-[395] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
-[455] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[455] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[455] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[461] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[467] bbl.pm:763> INFO - Output to main.bbl
-[468] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\resen\AppData\Local\Temp\biber_tmp_Tyjg\a20f060712aedbb6689faee50de82126_26756.utf8, line 126, warning: 2917 characters of junk seen at toplevel
-[468] Biber.pm:133> INFO - WARNINGS: 1
+[117] biber-MSWIN64:340> INFO - === 
+[154] Biber.pm:419> INFO - Reading 'main.bcf'
+[265] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[284] Biber.pm:4419> INFO - Processing section 0
+[299] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[350] bibtex.pm:1713> INFO - LaTeX decoding ...
+[378] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
+[475] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[475] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[476] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[486] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[493] bbl.pm:763> INFO - Output to main.bbl

@@ -2361,20 +2361,28 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">microsoft2024sharepoint</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">jamshidi2013cloud</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">microsoft2024sharepoint</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">microsoft2024online</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">marcotte2014responsive</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">w3c2018wcag</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">w3c2024evaluate</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">mikowski2013single</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">react2024facebook</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">bootstrap2024</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">silberschatz2020database</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">codd1990relational</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">fielding2000rest</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">openstreetmap2024contributors</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">laudon2020</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">turban2019</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">jamshidi2013cloud</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">microsoft2024sharepoint</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">silberschatz2020database</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">react2024facebook</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">bootstrap2024</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">w3c2018wcag</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">microsoft2024sharepoint</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">jamshidi2013cloud</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">microsoft2024sharepoint</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">microsoft2024online</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">marcotte2014responsive</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">w3c2018wcag</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">w3c2024evaluate</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">mikowski2013single</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">react2024facebook</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">bootstrap2024</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">silberschatz2020database</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">codd1990relational</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">openstreetmap2024contributors</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
