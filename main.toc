@@ -5,18 +5,18 @@
 \contentsline {subsection}{\numberline {1.1}Antecedentes}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Antecedentes de la Empresa}{2}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Antecedentes Teóricos}{4}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Tabla Comparativa: Antes y Después}{6}{subsubsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}Definición del Problema}{7}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Objetivos}{8}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{8}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{8}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4}Justificación}{9}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{10}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Alcances}{10}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{11}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Temas Tentativos para el Marco Teórico}{12}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Metodología}{14}{section.2}%
-\contentsline {section}{\numberline {3}Resultados}{15}{section.3}%
-\contentsline {section}{\numberline {4}Conclusiones}{16}{section.4}%
-\contentsline {section}{Bibliografía}{17}{section.4}%
-\contentsline {section}{Anexos}{18}{section.4}%
+\contentsline {subsubsection}{\numberline {1.1.3}Tabla Comparativa: Antes y Después}{5}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Definición del Problema}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objetivos}{7}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{7}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{7}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Justificación}{8}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{9}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Alcances}{9}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{10}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Temas Tentativos para el Marco Teórico}{11}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Metodología}{13}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{14}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{15}{section.4}%
+\contentsline {section}{Bibliografía}{16}{section.4}%
+\contentsline {section}{Anexos}{17}{section.4}%
