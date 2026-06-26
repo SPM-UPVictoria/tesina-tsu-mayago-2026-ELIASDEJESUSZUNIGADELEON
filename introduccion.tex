@@ -1,45 +1,165 @@
 \section{Introducción}
 \label{ch:introduccion}
 
-La introducción es la primera sección sustantiva de la tesis y tiene como propósito principal guiar al lector a través del contexto y la relevancia del estudio. En ella, se presenta el problema de investigación, se establecen los objetivos, se justifica la realización del trabajo y se delinean los alcances y limitaciones. Debe ser escrita de forma clara y concisa, capturando el interés del lector y proporcionando una visión general de lo que se abordará en los capítulos subsiguientes.
+La transformación digital ha redefinido la forma en que las instituciones de educación superior interactúan con su comunidad. En la actualidad, los portales institucionales son plataformas estratégicas operando como canales principales para la difusión de información y la prestación de servicios críticos \cite{laudon2020}. Sin embargo, muchas universidades aún enfrentan el desafío de operar sobre sistemas heredados (\textit{legacy systems}) con importantes limitaciones de escalabilidad y altos costos de mantenimiento técnico. Mantener sistemas obsoletos incrementa la deuda técnica, obstaculizando la innovación y comprometiendo la experiencia de los usuarios al carecer de estándares modernos de accesibilidad \cite{turban2019}.
+
+Este es precisamente el contexto del portal institucional de la Universidad Autónoma de Tamaulipas (UAT), el cual opera sobre versiones de Microsoft SharePoint (2013 y 2019) que hoy se consideran obsoletas. Su código, fundamentado en esquemas de HTML básico y hojas de estilo anticuadas, no aprovecha las ventajas del desarrollo web moderno. Además, la arquitectura de datos subyacente presenta estructuras empíricas que ocasionan latencia en las consultas y una evidente redundancia en la información. Esta situación dificulta la gestión de contenidos, hace lenta la navegación y expone a la institución a posibles vulnerabilidades de seguridad debido a la falta de soporte y actualizaciones continuas.
+
+El principal propósito de este proyecto es documentar y ejecutar la migración, rediseño y optimización del portal institucional de la UAT. Para resolver las deficiencias descritas, el proyecto aborda una transición estratégica hacia SharePoint Online, un entorno de computación en la nube (\textit{Cloud Computing}) que garantiza un modelo de actualizaciones continuas, seguridad avanzada y reduce drásticamente la deuda técnica \cite{jamshidi2013cloud, microsoft2024sharepoint}.
+
+Para lograr el objetivo, se busca optimizar exhaustivamente la arquitectura de datos mediante la normalización y consolidación de tablas redundantes \cite{silberschatz2020database}. En paralelo, se plantea el rediseño de las interfaces utilizando la arquitectura \textit{Single Page Application} (SPA) con la integración de la librería React \cite{react2024facebook} y el framework Bootstrap \cite{bootstrap2024}. Esta combinación de tecnologías permite construir módulos interactivos, responsivos y estructurados bajo estrictos criterios de accesibilidad, cumpliendo con las Pautas WCAG \cite{w3c2018wcag} para garantizar un entorno digital inclusivo para toda la comunidad universitaria.
+
+El propósito fundamental de este trabajo es asegurar que el portal institucional ofrezca una experiencia de usuario óptima y segura. La adopción de estas arquitecturas y tecnologías reduce el tiempo de respuesta, simplifica la interacción de los usuarios y fortalece la imagen institucional mediante una plataforma ágil y escalable. 
+
+Adicionalmente, esta modernización tecnológica no solo resuelve deficiencias técnicas, sino que tiene un impacto directo en los procesos administrativos de la universidad. Al integrar sistemas modernos y centralizados, se disminuyen los errores asociados a la manipulación manual de datos, se facilita el mantenimiento a largo plazo y se genera un clima de confianza en el resguardo de la información institucional. Todo esto permite a la UAT mantener sus servicios funcionando de manera ininterrumpida y posicionarse a la vanguardia en tecnología educativa.
+
+Además, este proyecto se alinea con la visión estratégica de la institución para ofrecer servicios digitales de alta calidad. Al optimizar la plataforma, se beneficia directamente a la comunidad universitaria facilitando su acceso rápido a la información. Finalmente, esta actualización sienta bases sólidas para integrar nuevas herramientas a futuro, posicionando a la universidad a la vanguardia tecnológica.
+
+Para detallar su desarrollo, este documento se estructura en las siguientes secciones: Introducción, que aborda el planteamiento del problema; Antecedentes, que describe el contexto histórico y teórico; Metodología, donde se detalla el análisis y diseño del nuevo sistema; y finalmente, los Resultados y las Conclusiones del proyecto.
 
 \subsection{Antecedentes}
 \label{sec:antecedentes}
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+\subsubsection{Antecedentes de la Empresa}
+\label{subsec:antecedentes_empresa}
+
+\subsubsection*{Información General sobre la UAT}
+
+La Universidad Autónoma de Tamaulipas (UAT) es una institución de educación superior comprometida con la formación integral de profesionistas en el estado de Tamaulipas. Como universidad pública, la UAT se dedica a impulsar la excelencia académica, la innovación y la responsabilidad social, con presencia en múltiples campus y programas educativos en diferentes áreas del conocimiento.
+
+\subsubsection*{Misión Institucional}
+
+La misión de la UAT es \textit{``Formar profesionistas íntegros con un enfoque humanista, comprometidos con la transformación social y el impacto positivo en la comunidad. Impulsamos la excelencia académica, la innovación, la responsabilidad social y la equidad de género en todas nuestras actividades, propiciando la igualdad de oportunidades y el bienestar colectivo, mediante la vinculación, la generación, difusión y aplicación del conocimiento científico, la cultura, el deporte y las artes, ejerciendo la ética y nuestros valores institucionales.''}
+
+\subsubsection*{Visión Institucional}
+
+La visión de la UAT es \textit{``Ser una universidad incluyente, equitativa y socialmente responsable, protagonista con el desarrollo socioeconómico y ambiental del estado, dirigida hacia la internacionalización, comprometida con sus trabajadores y el futuro profesional de sus estudiantes en condiciones de igualdad, que genere y transfiera conocimiento innovador, la cultura, técnicas y tecnologías útiles a la sociedad bajo un enfoque de sustentabilidad.''}
+
+\subsubsection*{El Portal Institucional: Situación Actual}
+
+El portal institucional de la UAT constituye una herramienta estratégica para la comunicación, difusión de información y acceso a servicios para estudiantes, docentes, administrativos y público general. Sin embargo, actualmente opera sobre una plataforma tecnológica obsoleta (Microsoft SharePoint 2013/2019) con arquitectura legada que limita su capacidad funcional.
+
+La infraestructura actual presenta limitaciones críticas \cite{microsoft2024sharepoint}:
+
+\begin{itemize}
+    \item \textbf{Tecnología desactualizada:} Basada en HTML básico con estilos antiguos que no responden a estándares web contemporáneos.
+    \item \textbf{Redundancia en datos:} Tablas duplicadas y estructuras ineficientes que consumen recursos innecesarios.
+    \item \textbf{Interfaces no accesibles:} No cumple con normativas de accesibilidad web (WCAG) y responsividad limitada.
+    \item \textbf{Mantenimiento complejo:} Código legado que dificulta la implementación de nuevas funcionalidades.
+    \item \textbf{Seguridad comprometida:} SharePoint 2013/2019 ya no recibe actualizaciones de seguridad activas.
+\end{itemize}
+
+\subsubsection*{El Proyecto de Modernización}
+
+En el contexto de la misión institucional de innovación y transformación digital, se desarrolla el proyecto \textbf{\NombreProyecto}. Este proyecto contempla tres pilares principales: primero, la migración tecnológica desde SharePoint 2013/2019 hacia SharePoint Online; segundo, la optimización de la arquitectura de datos eliminando redundancias; y tercero, el rediseño moderno de secciones específicas integrando frameworks contemporáneos como React y Bootstrap.
+
+La implementación de esta modernización contribuye directamente a los objetivos institucionales de inclusión, accesibilidad digital y transformación tecnológica, alineándose con la visión de una ``universidad incluyente, equitativa y socialmente responsable.''
+
+\subsubsection{Antecedentes Teóricos}
+\label{subsec:antecedentes_teoricos}
+
+La actualización tecnológica de portales universitarios es una necesidad documentada en diversas instituciones que buscan optimizar sus servicios. El análisis de proyectos afines y migraciones a la nube sirve como referente metodológico para estructurar la transformación digital en la UAT, demostrando la viabilidad de modernizar infraestructuras legadas hacia entornos más dinámicos.
+
+\subsubsection*{Migración a SharePoint Online en la Universidad de Leeds}
+
+Un referente significativo es el proyecto de la Universidad de Leeds, institución que enfrentaba un problema crítico de dispersión digital con más de 650 sitios web legados desvinculados. Para unificar sus plataformas, llevaron a cabo una transición hacia una intranet moderna construida sobre SharePoint Online dentro del ecosistema de Microsoft 365 \cite{caseleeds2021}. Esta modernización no solo consolidó la información en una única fuente de verdad para más de 10,000 usuarios, sino que elevó considerablemente las métricas de usabilidad y satisfacción. Esta experiencia justifica la necesidad de integrar estructuras desorganizadas en un entorno gestionado en la nube.
+
+\subsubsection*{Consolidación Documental en Universidades Estatales}
+
+Otra iniciativa relevante destaca la experiencia de una gran universidad estatal norteamericana (con más de 40,000 usuarios), la cual ejecutó la migración de 2.8 millones de documentos alojados en 847 sitios antiguos hacia una arquitectura contemporánea de ``Sitios Hub'' (Hub Sites) \cite{casestateuniv2022}. La reestructuración permitió a la institución cumplir con estrictas normativas de seguridad educativa y sustituir sistemas informales de almacenamiento por un entorno centralizado. Esta estrategia de consolidación aporta bases metodológicas sólidas para la fase de optimización de datos que se plantea en el portal universitario actual.
+
+\subsubsection*{Modernización de Procesos Legados (Univ. de Texas en Arlington)}
+
+Por otra parte, la Universidad de Texas en Arlington emprendió una modernización tecnológica donde se reemplazó una arquitectura local heredada por versiones recientes de SharePoint en la nube \cite{caseuta2019}. El valor de este proyecto radica en la sustitución de procesos basados en papel y en la renovación de interfaces obsoletas mediante la integración de herramientas modernas de la misma suite, logrando estandarizar flujos de trabajo a lo largo de múltiples departamentos. Esto comprueba la escalabilidad de SharePoint para soportar interfaces avanzadas, factor decisivo para el rediseño planteado en este documento.
+
+\subsubsection*{Rendimiento de Interfaces SPA en Entornos Universitarios}
+
+A nivel de la capa de presentación visual (frontend), Kushwaha y Vyas evaluaron teórica y prácticamente el rendimiento de portales educativos tradicionales frente a aquellos construidos con arquitecturas \textit{Single Page Application} (SPA) empleando librerías como React \cite{kushwaha2020spa}. Sus resultados evidenciaron que las SPA logran reducir los tiempos de respuesta del servidor hasta en un 60\%, optimizando el consumo de recursos al renderizar dinámicamente los componentes de la interfaz sin recargar páginas completas. Dicho análisis fundamenta de manera teórica la selección de React y Bootstrap para garantizar que el nuevo desarrollo sea una herramienta ágil y verdaderamente responsiva.
+
+\subsubsection{Tabla Comparativa: Antes y Después}
+\label{subsec:tabla_comparativa}
+
+Con el fin de evidenciar las mejoras que introduce el presente proyecto, en la Tabla \ref{tab:comparativa_uat} se contrastan los procesos y características del portal actual versus la solución propuesta.
+
+\begin{table}[H]
+\centering
+\caption{Comparativa entre el Portal Actual (SharePoint 2013/2019) y la Solución Modernizada (SharePoint Online + Frameworks Modernos)}
+\label{tab:comparativa_uat}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspecto} & \textbf{Antes (SharePoint 2013/2019 + HTML Básico)} & \textbf{Después (SharePoint Online + Modernización)} \\
+\hline
+\textbf{Stack Tecnológico} & HTML5 básico, CSS inline, JavaScript legacy & React, Bootstrap, TypeScript, arquitectura modular \\
+\hline
+\textbf{Accesibilidad Web} & No implementada, interfaz no inclusiva & WCAG 2.1 AA, diseño inclusivo \\
+\hline
+\textbf{Responsividad} & Limitada, requiere versión móvil separada & Diseño responsivo completo (desktop, tablet, móvil) \\
+\hline
+\textbf{Base de Datos} & Tablas redundantes, normalización incompleta & Arquitectura optimizada, normalización completa \\
+\hline
+\textbf{Integraciones} & Manuales, limitadas & Automáticas vía APIs (mapas, redes sociales) \\
+\hline
+\textbf{Seguridad} & Sin actualizaciones activas, vulnerabilidades conocidas & Actualizaciones automáticas, SSL/TLS, compliance moderno \\
+\hline
+\textbf{Mantenibilidad} & Código legado, difícil de modificar & Componentes modulares, fácil de extender \\
+\hline
+\textbf{Disponibilidad} & 99.5\% (infraestructura local) & 99.9\%+ (cloud con SLA garantizado) \\
+\hline
+\textbf{Escalabilidad} & Limitada por hardware local & Elástica, crece con demanda \\
+\hline
+\textbf{Experiencia de Usuario} & Interfaz desactualizada, lenta, poco intuitiva & Moderna, fluida, intuitiva, accesible \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Definición del Problema}
 \label{sec:problema}
 
-Aquí se describe de manera clara y precisa el problema que la tesis busca resolver. Es fundamental articular el problema de forma que sea comprensible, relevante y factible de investigar. Esta sección debe responder a preguntas como: ¿Qué situación actual es insatisfactoria o genera una necesidad? ¿Qué aspectos de este problema no han sido abordados adecuadamente por investigaciones anteriores? La definición del problema puede ser formulada como una pregunta de investigación o una declaración clara de la brecha de conocimiento.
+El portal institucional de la Universidad Autónoma de Tamaulipas se ejecuta actualmente sobre una plataforma tecnológica obsoleta (SharePoint 2013/2019) cuya arquitectura y código heredado presentan limitaciones significativas que impactan negativamente en su funcionamiento y mantenibilidad.
+
+Actualmente, el portal está construido con HTML básico y estilos antiguos, lo que genera ineficiencias en la gestión centralizada de contenidos, requiriendo actualizaciones manuales y repetitivas. Asimismo, existe redundancia en la estructura de datos con tablas duplicadas que consumen recursos innecesarios, interfaces desactualizadas en secciones específicas que no integran funcionalidades modernas, y dificultad para implementar herramientas digitales contemporáneas debido a incompatibilidades técnicas.
+
+Aunque el portal actual es funcional, no existe una estrategia de modernización que contemple la migración hacia versiones actualizadas de SharePoint, la optimización de su arquitectura de datos, la integración de frameworks modernos como React y Bootstrap, o la incorporación de herramientas seguras y gratuitas para enriquecer la experiencia del usuario.
+
+Con base en lo anterior, la pregunta de investigación se centra en: ¿Cómo migrar, rediseñar y optimizar el portal institucional de la UAT hacia SharePoint Online, modernizando su stack tecnológico y estructura de datos, para mejorar su eficiencia operativa y capacidad de innovación?
 
 \subsection{Objetivos}
 \label{sec:objetivos}
 
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
+%Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
 
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
-\begin{itemize}
-    \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
-\end{itemize}
+Rediseñar y optimizar el portal institucional de la Universidad Autónoma de Tamaulipas bajo la plataforma SharePoint, implementando mejoras en el framework e integración de herramientas digitales y protocolos de accesibilidad, para garantizar una respuesta óptima en las consultas de base de datos y una experiencia de usuario eficiente, teniendo como entregable un portal web funcional y optimizado.
+%\begin{itemize}
+    %\item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
+%\end{itemize}
 
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
-    \item \textbf{Ejemplo 1:} Recopilar y preprocesar un conjunto de datos de vibraciones y parámetros operativos de turbinas eólicas.
-    \item \textbf{Ejemplo 2:} Implementar y evaluar diferentes algoritmos de aprendizaje automático para la clasificación de estados operativos (normal, pre-falla, falla).
-    \item \textbf{Ejemplo 3:} Diseñar una interfaz de usuario para la visualización de alertas y el monitoreo en tiempo real del estado de las turbinas.
+    \item \textbf{} Analizar y rediseñar la arquitectura del framework y la interfaz gráfica del portal bajo un enfoque de diseño web responsivo, asegurando el cumplimiento de protocolos de accesibilidad y optimización de recursos, generando como entregable un documento de diseño y arquitectura de información.
+    \item \textbf{} Desarrollar plantillas personalizadas e integrar herramientas en línea (Instagram, YouTube y Google), optimizando la gestión de listas y el tiempo de respuesta en consultas a la base de datos, generando como entregable el portal institucional con las integraciones técnicas operativas.
+    \item \textbf{} Validar el desempeño y la robustez del portal mediante pruebas de accesibilidad, adaptabilidad responsiva y eficiencia de carga en diferentes dispositivos, generando como entregable un informe técnico de resultados y cumplimiento de estándares institucionales.
 \end{itemize}
 
 \subsection{Justificación}
 \label{sec:justificacion}
 
-La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+La modernización del portal institucional de la UAT es fundamental por varias razones técnicas y operacionales:
+
+\textbf{Desde la perspectiva técnica}, el portal actual se sustenta en tecnología obsoleta (SharePoint 2013/2019) que ha dejado de recibir actualizaciones de seguridad y soporte activo. Una migración hacia SharePoint Online garantiza compatibilidad con herramientas y estándares contemporáneos, acceso a features actualizadas, y seguridad mejorada que protege los datos institucionales.
+
+\textbf{Desde la perspectiva operacional}, la arquitectura actual con HTML básico y redundancia de datos genera ineficiencias en la gestión de contenidos y consume recursos innecesarios. La optimización de esta estructura mediante consolidación de tablas y modernización del código reduce tiempos de mantenimiento y facilita futuras actualizaciones.
+
+\textbf{Desde la perspectiva de innovación}, la integración de frameworks modernos como React y Bootstrap, junto con herramientas gratuitas seguras como OpenStreetMaps, permite enriquecer la experiencia del usuario con funcionalidades que el portal actual no puede ofrecer. Esto se evidencia en el rediseño de secciones específicas como el campus, que ahora incluye mapas interactivos y geolocalizadores.
+
+\textbf{Desde la perspectiva institucional}, un portal moderno y eficiente proyecta una imagen institucional contemporánea y demuestra compromiso con la transformación digital, factores relevantes en la competencia por estudiantes y credibilidad ante públicos externos.
+
+Por lo anterior, este proyecto representa una inversión estratégica necesaria para garantizar la viabilidad, seguridad y escalabilidad del portal institucional a mediano y largo plazo.
 
 \subsection{Alcances y Limitaciones}
 \label{sec:alcances_limitaciones}
@@ -47,13 +167,112 @@ La justificación explica por qué es importante y relevante llevar a cabo la in
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+El presente proyecto contempla los siguientes aspectos dentro de su desarrollo:
+
+\subsubsection*{Sobre la Migración Tecnológica}
+\begin{itemize}
+    \item Migración de la plataforma actual (SharePoint 2013/2019) hacia SharePoint Online.
+    \item Validación de compatibilidad entre versiones y transferencia de estructuras de datos existentes.
+    \item Configuración de seguridad y permisos en la nueva plataforma.
+\end{itemize}
+
+\subsubsection*{Sobre la Optimización de Datos}
+\begin{itemize}
+    \item Análisis completo de la arquitectura de bases de datos actual, identificando redundancias y tablas duplicadas.
+    \item Consolidación de tablas redundantes para mejorar eficiencia y reducir consumo de recursos.
+    \item Optimización de consultas para reducir tiempos de respuesta del portal.
+\end{itemize}
+
+\subsubsection*{Sobre el Rediseño de Secciones}
+\begin{itemize}
+    \item Modernización visual e implementación de nuevas funcionalidades en secciones prioritarias (como el módulo de campus).
+    \item Reemplazo de HTML básico y estilos antiguos con frameworks modernos (Bootstrap y React).
+\end{itemize}
+
+\subsubsection*{Sobre la Integración de Herramientas}
+\begin{itemize}
+    \item Investigación y evaluación de herramientas digitales gratuitas y seguras que complementen funcionalidades.
+    \item Integración de APIs externas sin incrementar costos operacionales.
+\end{itemize}
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+\subsubsection*{Limitaciones Técnicas}
+\begin{itemize}
+    \item No se incluye el desarrollo de un nuevo framework de SharePoint. El proyecto trabaja con la plataforma SharePoint Online tal como se distribuye actualmente.
+    \item La optimización de datos está limitada a la estructura existente; no se contemplan cambios en sistemas administrativos internos integrados al portal.
+    \item El desempeño del portal dependerá de la infraestructura de servidores existente en la institución. Mejoras en performance más allá de optimizaciones de código requerirán upgrades de infraestructura no incluidos en este proyecto.
+\end{itemize}
 
+\subsubsection*{Limitaciones de Alcance}
+\begin{itemize}
+    \item Solo se modernizarán secciones prioritarias del portal identificadas durante el análisis inicial. Otras secciones no contempladas en el proyecto mantendrán su estructura actual.
+    \item No se incluye migración de datos históricos anteriores a la fecha de inicio del proyecto.
+    \item No se contempla el desarrollo de aplicaciones móviles nativas; el portal seguirá siendo accesible únicamente a través de navegador web.
+\end{itemize}
+
+\subsubsection*{Limitaciones Temporales}
+\begin{itemize}
+    \item El proyecto debe completarse dentro del período académico establecido (Mayo-Agosto 2026), lo que puede restringir la profundidad de ciertos módulos o la implementación de funcionalidades adicionales no críticas.
+\end{itemize}
+
+\subsubsection*{Limitaciones de Recursos}
+\begin{itemize}
+    \item Dependencia de las licencias y permisos de acceso existentes en SharePoint Online proporcionados por la institución.
+    \item El soporte y mantenimiento post-implementación dependerá de la disponibilidad del equipo de TI institucional.
+\end{itemize}
+
+\subsection{Temas Tentativos para el Marco Teórico}
+\label{sec:temas_tentativos}
+
+A continuación se presentan los temas tentativos que conformarán el marco teórico del proyecto, organizados de manera lógica para sustentar las decisiones técnicas y metodológicas adoptadas durante la modernización del portal institucional.
+
+\begin{table}[H]
+\centering
+\caption{Temas tentativos para el desarrollo del marco teórico}
+\label{tab:temas_tentativos}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{5.5cm}|p{8.5cm}|}
+\hline
+\textbf{Tema Principal} & \textbf{Subtemas Propuestos} \\
+\hline
+1. Fundamentos de Migración y Cloud Computing & 
+- Beneficios de la migración de sistemas legados. \newline
+- Modelos de servicios en la nube (SaaS, PaaS, IaaS). \\
+\hline
+2. Evolución de Microsoft SharePoint & 
+- Limitaciones de arquitecturas On-Premises. \newline
+- Características y ventajas de SharePoint Online. \\
+\hline
+3. Arquitectura de Sistemas Web Modernos & 
+- Transición a Single Page Applications (SPA). \newline
+- Arquitectura basada en componentes. \\
+\hline
+4. Frameworks y Tecnologías Frontend & 
+- Fundamentos de React: Renderizado dinámico y estado. \newline
+- Integración de herramientas de desarrollo modernas. \\
+\hline
+5. Diseño Web Responsivo (RWD) & 
+- Principios de adaptabilidad y enfoque Mobile-first. \newline
+- Frameworks CSS (Bootstrap) y sistemas de grillas. \\
+\hline
+6. Accesibilidad e Inclusión Digital & 
+- Estándares y pautas WCAG 2.1. \newline
+- Implementación y pruebas de diseño inclusivo. \\
+\hline
+7. Optimización de Bases de Datos & 
+- Modelo relacional y principios de normalización. \newline
+- Indexación y alto rendimiento en consultas web. \\
+\hline
+8. Interoperabilidad y Servicios REST & 
+- Principios fundamentales de la arquitectura RESTful. \newline
+- Consumo e integración de APIs de terceros. \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{comment}
 \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 \label{sec:ejemplos_elementos}
 
@@ -110,3 +329,4 @@ Las imágenes, gráficos o diagramas son cruciales para complementar la explicac
 Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
 
 Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
+\end{comment}
