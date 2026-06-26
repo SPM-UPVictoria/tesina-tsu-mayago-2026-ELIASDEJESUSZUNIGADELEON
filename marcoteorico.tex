@@ -1,0 +1,58 @@
+\section{Marco Teórico}
+\label{ch:marco_teorico}
+
+El presente capítulo desarrolla los fundamentos teóricos y tecnológicos que sustentan el rediseño y modernización del portal institucional de la Universidad Autónoma de Tamaulipas (UAT). Se abordan conceptos clave que justifican la transición hacia un entorno moderno en la nube y el uso de tecnologías actuales para el desarrollo web y la gestión de datos.
+
+\subsection{Fundamentos de Migración y Cloud Computing}
+\label{sec:fundamentos_cloud}
+
+La evolución de la infraestructura de tecnologías de la información ha llevado a las organizaciones a replantear sus arquitecturas tradicionales, conocidas como locales o \textit{On-Premises}, hacia entornos basados en la computación en la nube (\textit{Cloud Computing}). Según el Instituto Nacional de Estándares y Tecnología (NIST), la computación en la nube es un modelo que permite el acceso ubicuo, conveniente y bajo demanda a través de la red a un conjunto compartido de recursos informáticos configurables, que pueden ser rápidamente aprovisionados y liberados con un esfuerzo de gestión mínimo \cite{mell2011nist}.
+
+\subsubsection*{Beneficios de la migración de sistemas legados}
+
+Un sistema legado (\textit{legacy system}) se define como una tecnología, sistema informático o aplicación que ha quedado obsoleta, pero sigue siendo utilizada porque aún cumple con las funciones para las que fue diseñada originalmente \cite{bisbal1999legacy}. No obstante, mantener sistemas legados implica altos costos operativos, deuda técnica acumulada y vulnerabilidades de seguridad significativas.
+
+La migración de estos sistemas hacia plataformas modernas en la nube ofrece beneficios sustanciales:
+\begin{itemize}
+    \item \textbf{Reducción de costos operativos (OpEx):} Elimina la necesidad de adquirir, mantener y actualizar hardware físico (CapEx), pagando únicamente por los recursos consumidos.
+    \item \textbf{Escalabilidad y flexibilidad elástica:} Los recursos pueden aumentar o disminuir dinámicamente en función de la demanda del tráfico web, asegurando alta disponibilidad.
+    \item \textbf{Seguridad y cumplimiento normativo:} Los proveedores de nube ofrecen infraestructuras respaldadas por certificaciones globales de seguridad y actualizaciones de software automáticas.
+    \item \textbf{Innovación acelerada:} Permite la adopción de nuevas tecnologías y arquitecturas sin las restricciones del hardware obsoleto.
+\end{itemize}
+
+\subsubsection*{Modelos de servicios en la nube}
+
+El ecosistema de \textit{Cloud Computing} se categoriza principalmente en tres modelos de servicio, cada uno ofreciendo un nivel distinto de control y gestión para el usuario \cite{marston2011cloud}:
+
+\begin{itemize}
+    \item \textbf{IaaS (Infrastructure as a Service):} Proporciona recursos informáticos virtualizados a través de internet (servidores, almacenamiento, redes). El cliente gestiona el sistema operativo y las aplicaciones.
+    \item \textbf{PaaS (Platform as a Service):} Ofrece un entorno de desarrollo y despliegue en la nube, entregando recursos que permiten la creación de aplicaciones en la nube sin la complejidad de construir y mantener la infraestructura subyacente.
+    \item \textbf{SaaS (Software as a Service):} Brinda acceso a aplicaciones alojadas en la nube a través de un navegador web, donde el proveedor gestiona tanto la infraestructura como el mantenimiento del software. SharePoint Online, utilizado en este proyecto, es un claro ejemplo de SaaS \cite{microsoft2024sharepoint}.
+\end{itemize}
+
+\subsection{Evolución de Microsoft SharePoint}
+\label{sec:evolucion_sharepoint}
+
+Microsoft SharePoint ha evolucionado significativamente desde su concepción como una herramienta de gestión documental centralizada, transformándose en una plataforma integral de colaboración y gestión de contenidos empresariales (ECM). Esta evolución ha estado fuertemente ligada a la transición de la industria hacia modelos de \textit{Cloud Computing}.
+
+\subsubsection*{Limitaciones de arquitecturas On-Premises}
+
+Históricamente, las versiones de SharePoint (como las ediciones 2010, 2013 y 2019) requerían una arquitectura \textit{On-Premises}, donde la institución alojaba físicamente los servidores, configuraba las granjas de servidores (\textit{server farms}) y gestionaba directamente las bases de datos en SQL Server.
+
+Esta arquitectura presentaba limitaciones operativas críticas:
+\begin{itemize}
+    \item \textbf{Alta carga administrativa:} Requería equipos especializados de TI para la aplicación manual de parches de seguridad, actualizaciones y mantenimiento del hardware, lo que incrementaba el tiempo de inactividad programado \cite{kothari2017sharepoint}.
+    \item \textbf{Obsolescencia técnica rápida:} Los ciclos de actualización largos impedían acceder a nuevas funcionalidades lanzadas por Microsoft, provocando que los portales universitarios quedaran rápidamente desactualizados en términos de usabilidad e integración.
+    \item \textbf{Baja elasticidad:} Escalar el rendimiento del portal ante picos de demanda institucional (como periodos de inscripción) implicaba la compra y configuración de nuevos servidores físicos.
+\end{itemize}
+
+\subsubsection*{Características y ventajas de SharePoint Online}
+
+SharePoint Online es la iteración basada en la nube de la plataforma, integrada dentro del ecosistema de Microsoft 365, operando bajo el modelo SaaS. Su adopción mitiga las deficiencias de los sistemas locales y proporciona una arquitectura moderna.
+
+Las ventajas clave que justifican su implementación en el rediseño del portal incluyen:
+\begin{itemize}
+    \item \textbf{Actualizaciones continuas (Evergreen IT):} Microsoft gestiona el ciclo de vida del software, garantizando que la plataforma siempre opere en su última versión, incorporando mejoras de seguridad y nuevas características de forma transparente \cite{rad2023modern}.
+    \item \textbf{Arquitectura plana y Hub Sites:} A diferencia de la antigua estructura jerárquica de subsitios (muy anidada y difícil de navegar), SharePoint Online promueve una arquitectura plana vinculada mediante Sitios Hub (\textit{Hub Sites}). Esto optimiza la gestión de datos, elimina redundancias y mejora drásticamente la experiencia de búsqueda.
+    \item \textbf{Integración nativa e Interoperabilidad:} Al ser nativo en la nube, ofrece APIs modernas (como Microsoft Graph API) que facilitan la integración de aplicaciones personalizadas desarrolladas con librerías de frontend como React, permitiendo construir interfaces altamente interactivas e inclusivas.
+\end{itemize}

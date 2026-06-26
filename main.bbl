@@ -336,6 +336,204 @@
       \field{pages}{123\bibrangedash 134}
       \range{pages}{12}
     \endentry
+    \entry{mell2011nist}{report}{}
+      \name{author}{2}{}{%
+        {{hash=eac098e5805fbc204d757a7083c69ac6}{%
+           family={Mell},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f32f3f75de51838401f618755c8a6620}{%
+           family={Grance},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{fullhash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{bibnamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authorbibnamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authornamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authorfullhash}{d1f558bbc290d0967925307c14bc2d83}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Special Publication 800-145}
+      \field{title}{The NIST definition of cloud computing}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+      \endverb
+      \verb{url}
+      \verb https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+      \endverb
+    \endentry
+    \entry{bisbal1999legacy}{article}{}
+      \name{author}{6}{}{%
+        {{hash=21e8af5344d4a63a9b057110500f7d90}{%
+           family={Bisbal},
+           familyi={B\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b14eb0759a69e6f4dca80cc529ce30de}{%
+           family={Devanbu},
+           familyi={D\bibinitperiod},
+           given={Premkumar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=635f3bf0bdd0f9cc7b0ec55fe5f1a53e}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d9866a666a16b7a9390548ff3ddf3a8d}{%
+           family={Grimson},
+           familyi={G\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3bce50932cea1f7efa03827bd31606e2}{%
+           family={Wade},
+           familyi={W\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a6449dcbce870ed0feee56fff77beb3c}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{88c392b01abee7702cc58c869578d6e8}
+      \strng{fullhash}{828718e4c23760b37e6ee8c44e6f1769}
+      \strng{bibnamehash}{88c392b01abee7702cc58c869578d6e8}
+      \strng{authorbibnamehash}{88c392b01abee7702cc58c869578d6e8}
+      \strng{authornamehash}{88c392b01abee7702cc58c869578d6e8}
+      \strng{authorfullhash}{828718e4c23760b37e6ee8c44e6f1769}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE software}
+      \field{number}{5}
+      \field{title}{Legacy information systems: Issues and directions}
+      \field{volume}{16}
+      \field{year}{1999}
+      \field{pages}{103\bibrangedash 111}
+      \range{pages}{9}
+    \endentry
+    \entry{marston2011cloud}{article}{}
+      \name{author}{5}{}{%
+        {{hash=81b35639719574ff3ee004e59fb857b2}{%
+           family={Marston},
+           familyi={M\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1016f45114ced473595a89e1864b0333}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3546cff8213bc86abcf6943f243fb4fe}{%
+           family={Bandyopadhyay},
+           familyi={B\bibinitperiod},
+           given={Subhajyoti},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5a98c4d5908fc9a410e7878ba455c73b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Juheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=339e18a101d92687dcea7eb090f8d30b}{%
+           family={Ghalsasi},
+           familyi={G\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{fullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
+      \strng{bibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authorbibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authornamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authorfullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decision support systems}
+      \field{number}{1}
+      \field{title}{Cloud computing—The business perspective}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{176\bibrangedash 189}
+      \range{pages}{14}
+    \endentry
+    \entry{kothari2017sharepoint}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7aeba3ff9203534be1f9437947d46a74}{%
+           family={Kothari},
+           familyi={K\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7b8051b9481ce4c8a28e15db1282113a}{%
+           family={Curran},
+           familyi={C\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{fullhash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{bibnamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{authorbibnamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{authornamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{authorfullhash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SharePoint 2016 User's Guide: Learning Microsoft's Business Collaboration Platform}
+      \field{year}{2017}
+    \endentry
+    \entry{rad2023modern}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=58fb7f8aea9752d0d4cd25a7dbbec58c}{%
+           family={Rad},
+           familyi={R\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{30641657a0e153444db878794cd8bf04}
+      \strng{fullhash}{30641657a0e153444db878794cd8bf04}
+      \strng{bibnamehash}{30641657a0e153444db878794cd8bf04}
+      \strng{authorbibnamehash}{30641657a0e153444db878794cd8bf04}
+      \strng{authornamehash}{30641657a0e153444db878794cd8bf04}
+      \strng{authorfullhash}{30641657a0e153444db878794cd8bf04}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Information Technology and Digital Transformation}
+      \field{number}{2}
+      \field{title}{Modernizing Enterprise Collaboration with Microsoft SharePoint Online: A Comprehensive Analysis}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
