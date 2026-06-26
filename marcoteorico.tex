@@ -56,3 +56,41 @@ Las ventajas clave que justifican su implementación en el rediseño del portal 
     \item \textbf{Arquitectura plana y Hub Sites:} A diferencia de la antigua estructura jerárquica de subsitios (muy anidada y difícil de navegar), SharePoint Online promueve una arquitectura plana vinculada mediante Sitios Hub (\textit{Hub Sites}). Esto optimiza la gestión de datos, elimina redundancias y mejora drásticamente la experiencia de búsqueda.
     \item \textbf{Integración nativa e Interoperabilidad:} Al ser nativo en la nube, ofrece APIs modernas (como Microsoft Graph API) que facilitan la integración de aplicaciones personalizadas desarrolladas con librerías de frontend como React, permitiendo construir interfaces altamente interactivas e inclusivas.
 \end{itemize}
+
+\subsection{Arquitectura de Sistemas Web Modernos}
+\label{sec:arquitectura_web_moderna}
+
+El diseño de portales institucionales ha migrado de las arquitecturas tradicionales orientadas a múltiples páginas hacia paradigmas que priorizan la fluidez y la interactividad en el lado del cliente (frontend).
+
+\subsubsection*{Transición a Single Page Applications (SPA)}
+
+Las aplicaciones tradicionales recargan la página completa cada vez que el usuario navega a una nueva sección o interactúa con el servidor. En contraste, una \textit{Single Page Application} (SPA) es una aplicación o sitio web que interactúa con el usuario reescribiendo dinámicamente la página actual en lugar de cargar páginas enteras desde el servidor. Este enfoque evita la interrupción de la experiencia del usuario entre páginas sucesivas, logrando que la aplicación se comporte más como una aplicación de escritorio \cite{mikowski2013single}.
+
+La adopción de una arquitectura SPA en el rediseño del portal de la UAT ofrece:
+\begin{itemize}
+    \item \textbf{Mayor rendimiento:} Después de la carga inicial, solo se transmiten los datos (usualmente en formato JSON) en lugar del HTML completo, lo que reduce drásticamente el consumo de ancho de banda y el tiempo de latencia en consultas al servidor.
+    \item \textbf{Experiencia de usuario fluida:} Las transiciones entre módulos (como la navegación en el mapa del campus) son instantáneas, eliminando los molestos destellos blancos de recarga.
+    \item \textbf{Desacoplamiento frontend-backend:} Permite que la capa visual (SPA) evolucione independientemente de la lógica de negocio y base de datos (SharePoint), comunicándose exclusivamente a través de APIs web.
+\end{itemize}
+
+\subsubsection*{Arquitectura basada en componentes}
+
+Un pilar fundamental de los sistemas web modernos es la arquitectura basada en componentes. En lugar de estructurar el código en largos y complejos archivos de marcado, la interfaz de usuario se descompone en pequeñas piezas encapsuladas, independientes y reutilizables (por ejemplo, una barra de navegación, un botón interactivo o una tarjeta de perfil). Este paradigma facilita la escalabilidad, el mantenimiento del código a largo plazo y permite que diferentes desarrolladores trabajen en distintas piezas de la interfaz de forma paralela y sin conflictos \cite{flanagan2020javascript}.
+
+\subsection{Frameworks y Tecnologías Frontend}
+\label{sec:tecnologias_frontend}
+
+Para materializar las arquitecturas modernas descritas, es indispensable el uso de herramientas de software especializadas. En la actualidad, el desarrollo frontend está dominado por ecosistemas basados en JavaScript que simplifican la manipulación del Document Object Model (DOM) del navegador.
+
+\subsubsection*{Fundamentos de React: Renderizado dinámico y estado}
+
+React es una biblioteca de JavaScript de código abierto desarrollada por Meta (anteriormente Facebook) especializada en la construcción de interfaces de usuario bajo el esquema de arquitectura basada en componentes \cite{react2024facebook}. Su selección para este proyecto responde a dos conceptos técnicos revolucionarios:
+
+\begin{itemize}
+    \item \textbf{Virtual DOM:} En lugar de actualizar directamente el DOM del navegador (una operación computacionalmente costosa que ralentiza los sitios web), React mantiene una copia ligera en memoria llamada DOM Virtual. Cuando los datos cambian, React calcula eficientemente la diferencia (\textit{diffing}) entre el estado anterior y el nuevo, y actualiza en el DOM real únicamente los nodos exactos que sufrieron modificaciones \cite{banks2017learning}.
+    \item \textbf{Gestión del estado (State):} React permite que los componentes mantengan su propio estado interno. Esta capacidad es esencial para crear interfaces dinámicas donde los elementos visuales responden en tiempo real a las acciones del usuario sin necesidad de solicitar información adicional al servidor de manera constante.
+\end{itemize}
+
+\subsubsection*{Integración de herramientas de desarrollo modernas}
+
+El uso de React no ocurre de forma aislada; se integra dentro de un ecosistema moderno que optimiza el flujo de trabajo del desarrollador. Herramientas como TypeScript (que añade tipado estático a JavaScript para prevenir errores en tiempo de compilación), Node.js (entorno de ejecución), y empaquetadores de módulos (como Webpack o Vite) son estándares de la industria que garantizan que el código del portal sea robusto, auditable y altamente optimizado antes de su despliegue a producción.

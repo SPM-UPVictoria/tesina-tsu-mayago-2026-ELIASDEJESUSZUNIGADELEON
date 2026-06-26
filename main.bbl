@@ -534,6 +534,88 @@
       \field{pages}{45\bibrangedash 58}
       \range{pages}{14}
     \endentry
+    \entry{mikowski2013single}{book}{}
+      \name{author}{2}{}{%
+        {{hash=491fd4895369cc79190d476085aa2d51}{%
+           family={Mikowski},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1f3f32d9e5b90d44039b9bf42671233e}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Josh\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Manning Publications}%
+      }
+      \strng{namehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{fullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{bibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authorbibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authornamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authorfullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Single Page Web Applications: JavaScript end-to-end}
+      \field{year}{2013}
+    \endentry
+    \entry{flanagan2020javascript}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2caeb722af2e88c021f73029f9740851}{%
+           family={Flanagan},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{fullhash}{2caeb722af2e88c021f73029f9740851}
+      \strng{bibnamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authorbibnamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authornamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authorfullhash}{2caeb722af2e88c021f73029f9740851}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language}
+      \field{year}{2020}
+    \endentry
+    \entry{banks2017learning}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6611f68d993477a1078ecf350add0286}{%
+           family={Banks},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a931131208802fa3000a53dd3e87bbca}{%
+           family={Porcello},
+           familyi={P\bibinitperiod},
+           given={Eve},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \strng{fullhash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \strng{bibnamehash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \strng{authorbibnamehash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \strng{authornamehash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \strng{authorfullhash}{7646e1ed14965980c5bfbf5d108be9b1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning React: Functional Web Development with React and Redux}
+      \field{year}{2017}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -2380,6 +2380,10 @@
     <bcf:citekey order="16" intorder="1">microsoft2024sharepoint</bcf:citekey>
     <bcf:citekey order="17" intorder="1">kothari2017sharepoint</bcf:citekey>
     <bcf:citekey order="18" intorder="1">rad2023modern</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">mikowski2013single</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">flanagan2020javascript</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">react2024facebook</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">banks2017learning</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

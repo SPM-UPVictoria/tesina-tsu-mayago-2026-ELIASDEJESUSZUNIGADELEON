@@ -18,8 +18,10 @@
 \contentsline {section}{\numberline {2}Marco Teórico}{13}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Fundamentos de Migración y Cloud Computing}{13}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Evolución de Microsoft SharePoint}{14}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Metodología}{16}{section.3}%
-\contentsline {section}{\numberline {4}Resultados}{17}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{18}{section.5}%
-\contentsline {section}{Bibliografía}{19}{section.5}%
-\contentsline {section}{Anexos}{21}{section.5}%
+\contentsline {subsection}{\numberline {2.3}Arquitectura de Sistemas Web Modernos}{15}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Frameworks y Tecnologías Frontend}{16}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Metodología}{18}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{19}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{20}{section.5}%
+\contentsline {section}{Bibliografía}{21}{section.5}%
+\contentsline {section}{Anexos}{23}{section.5}%
