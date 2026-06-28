@@ -20,8 +20,10 @@
 \contentsline {subsection}{\numberline {2.2}Evolución de Microsoft SharePoint}{14}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Arquitectura de Sistemas Web Modernos}{15}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Frameworks y Tecnologías Frontend}{16}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Metodología}{18}{section.3}%
-\contentsline {section}{\numberline {4}Resultados}{19}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{20}{section.5}%
-\contentsline {section}{Bibliografía}{21}{section.5}%
-\contentsline {section}{Anexos}{23}{section.5}%
+\contentsline {subsection}{\numberline {2.5}Diseño Web Responsivo (RWD)}{17}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Accesibilidad e Inclusión Digital}{18}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Metodología}{20}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{21}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{22}{section.5}%
+\contentsline {section}{Bibliografía}{23}{section.5}%
+\contentsline {section}{Anexos}{25}{section.5}%

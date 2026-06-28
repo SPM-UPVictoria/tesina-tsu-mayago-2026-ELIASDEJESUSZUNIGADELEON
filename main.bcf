@@ -2384,6 +2384,10 @@
     <bcf:citekey order="20" intorder="1">flanagan2020javascript</bcf:citekey>
     <bcf:citekey order="21" intorder="1">react2024facebook</bcf:citekey>
     <bcf:citekey order="22" intorder="1">banks2017learning</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">marcotte2014responsive</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">bootstrap2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">w3c2018wcag</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">w3c2024evaluate</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

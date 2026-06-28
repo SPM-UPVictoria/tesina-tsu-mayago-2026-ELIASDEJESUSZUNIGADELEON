@@ -94,3 +94,37 @@ React es una biblioteca de JavaScript de código abierto desarrollada por Meta (
 \subsubsection*{Integración de herramientas de desarrollo modernas}
 
 El uso de React no ocurre de forma aislada; se integra dentro de un ecosistema moderno que optimiza el flujo de trabajo del desarrollador. Herramientas como TypeScript (que añade tipado estático a JavaScript para prevenir errores en tiempo de compilación), Node.js (entorno de ejecución), y empaquetadores de módulos (como Webpack o Vite) son estándares de la industria que garantizan que el código del portal sea robusto, auditable y altamente optimizado antes de su despliegue a producción.
+
+\subsection{Diseño Web Responsivo (RWD)}
+\label{sec:rwd}
+
+En el contexto actual, los usuarios acceden a los portales institucionales desde una amplia variedad de dispositivos con distintos tamaños de pantalla, desde monitores de escritorio hasta teléfonos inteligentes. Para asegurar una experiencia visual óptima sin importar el dispositivo, es imperativo implementar un Diseño Web Responsivo (\textit{Responsive Web Design} o RWD).
+
+\subsubsection*{Principios de adaptabilidad y enfoque Mobile-first}
+
+El RWD se fundamenta en el uso de cuadrículas fluidas (\textit{fluid grids}), imágenes flexibles y consultas de medios (\textit{media queries}) en CSS para adaptar dinámicamente la presentación del contenido al tamaño del viewport del usuario \cite{marcotte2014responsive}. Un enfoque moderno de este diseño es la filosofía \textit{Mobile-first}, la cual establece que el diseño y la programación deben iniciar estructurando la versión para dispositivos móviles y, progresivamente, escalar y agregar complejidad visual para pantallas más grandes. Esta práctica no solo garantiza que la interfaz principal sea ligera y funcional en teléfonos, sino que también obliga a priorizar el contenido más relevante para el usuario.
+
+\subsubsection*{Frameworks CSS (Bootstrap) y sistemas de grillas}
+
+Escribir reglas responsivas desde cero puede ser un proceso propenso a errores e inconsistencias. Por ello, el desarrollo contemporáneo se apoya en frameworks CSS como Bootstrap \cite{bootstrap2024}. Bootstrap proporciona un robusto sistema de grillas (\textit{grid system}) de 12 columnas basado en Flexbox, lo que facilita la alineación y distribución de componentes de la interfaz de manera proporcional y automática. Su integración en el portal permite estandarizar botones, tipografía, formularios y tarjetas, acelerando el desarrollo de la interfaz de usuario bajo un estándar visual unificado y adaptable.
+
+\subsection{Accesibilidad e Inclusión Digital}
+\label{sec:accesibilidad}
+
+Un portal universitario público tiene la responsabilidad inherente de garantizar que todos los usuarios, independientemente de sus capacidades físicas, sensoriales o cognitivas, puedan acceder, comprender y navegar eficientemente por su contenido. La accesibilidad web asegura que las herramientas digitales no presenten barreras de entrada, promoviendo la inclusión digital de toda la comunidad educativa.
+
+\subsubsection*{Estándares y pautas WCAG 2.1}
+
+La iniciativa de Accesibilidad Web (WAI) del World Wide Web Consortium (W3C) ha desarrollado las Pautas de Accesibilidad para el Contenido Web (WCAG, por sus siglas en inglés). La versión WCAG 2.1 es el estándar internacional vigente que define criterios técnicos para hacer el contenido web más accesible \cite{w3c2018wcag}.
+
+Estas pautas se fundamentan en cuatro principios esenciales (POUR):
+\begin{itemize}
+    \item \textbf{Perceptible:} La información y los componentes de la interfaz deben ser presentados a los usuarios de manera que puedan percibirlos (por ejemplo, proporcionar texto alternativo para imágenes).
+    \item \textbf{Operable:} Los componentes de la interfaz y la navegación deben ser manejables, asegurando que todas las funcionalidades sean accesibles mediante el teclado sin forzar un límite de tiempo perjudicial.
+    \item \textbf{Comprensible:} El texto debe ser legible, y el funcionamiento de las páginas web debe ser predecible.
+    \item \textbf{Robusto:} El contenido debe ser lo suficientemente robusto para ser interpretado de manera fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia (lectores de pantalla).
+\end{itemize}
+
+\subsubsection*{Implementación y pruebas de diseño inclusivo}
+
+Para cumplir con el nivel de conformidad AA de las WCAG 2.1 exigido en instituciones públicas, el rediseño del portal debe contemplar atributos semánticos ARIA (\textit{Accessible Rich Internet Applications}), uso de contrastes de color apropiados y jerarquías claras de encabezados (H1, H2, H3). Adicionalmente, el ciclo de desarrollo debe incorporar la validación continua mediante herramientas automatizadas (como \textit{Lighthouse} o \textit{WAVE}) y pruebas manuales, asegurando que las interfaces dinámicas construidas con React notifiquen correctamente a los lectores de pantalla sobre cambios de estado o actualizaciones en el contenido \cite{w3c2024evaluate}.
