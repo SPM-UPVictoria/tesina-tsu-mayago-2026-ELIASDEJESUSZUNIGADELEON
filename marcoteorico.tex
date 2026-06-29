@@ -128,3 +128,42 @@ Estas pautas se fundamentan en cuatro principios esenciales (POUR):
 \subsubsection*{Implementación y pruebas de diseño inclusivo}
 
 Para cumplir con el nivel de conformidad AA de las WCAG 2.1 exigido en instituciones públicas, el rediseño del portal debe contemplar atributos semánticos ARIA (\textit{Accessible Rich Internet Applications}), uso de contrastes de color apropiados y jerarquías claras de encabezados (H1, H2, H3). Adicionalmente, el ciclo de desarrollo debe incorporar la validación continua mediante herramientas automatizadas (como \textit{Lighthouse} o \textit{WAVE}) y pruebas manuales, asegurando que las interfaces dinámicas construidas con React notifiquen correctamente a los lectores de pantalla sobre cambios de estado o actualizaciones en el contenido \cite{w3c2024evaluate}.
+
+\subsection{Optimización de Bases de Datos}
+\label{sec:optimizacion_bd}
+
+El núcleo de cualquier sistema de información es su base de datos. En portales institucionales heredados, es común encontrar estructuras de datos creadas de forma empírica que, con el tiempo, derivan en redundancia e inconsistencia. La optimización de la capa de persistencia de datos es vital para asegurar tiempos de respuesta ágiles y un consumo eficiente de los recursos del servidor.
+
+\subsubsection*{Modelo relacional y principios de normalización}
+
+El modelo relacional establece que los datos deben estructurarse en tablas formadas por filas y columnas, vinculadas mediante claves primarias y foráneas \cite{codd1990relational}. Para optimizar este modelo, se aplica el proceso de normalización, el cual consiste en aplicar una serie de reglas (formas normales) diseñadas para eliminar la redundancia de los datos y prevenir anomalías de inserción, actualización o borrado.
+
+En el contexto del portal de la UAT, aplicar al menos hasta la Tercera Forma Normal (3FN) garantiza que cada tabla tenga un propósito único y que los campos dependan exclusivamente de su clave principal, reduciendo drásticamente el espacio de almacenamiento y mejorando la integridad referencial \cite{silberschatz2020database}.
+
+\subsubsection*{Indexación y alto rendimiento en consultas web}
+
+La normalización aísla los datos, pero las consultas web frecuentemente requieren cruzar información de múltiples tablas (mediante operaciones \textit{JOIN}). Para que esto ocurra en milisegundos, es necesario implementar estrategias de indexación. Un índice funciona de manera análoga al índice de un libro, permitiendo al motor de la base de datos localizar las filas correspondientes de forma logarítmica (usualmente usando árboles B) en lugar de realizar escaneos secuenciales completos sobre la tabla, lo cual es insostenible en bases de datos a escala institucional.
+
+\subsection{Interoperabilidad y Servicios REST}
+\label{sec:interoperabilidad_rest}
+
+Un portal web moderno rara vez opera de forma aislada; necesita interoperar con otras aplicaciones y servicios. Esta interoperabilidad se logra mayoritariamente mediante el consumo de interfaces de programación de aplicaciones (APIs).
+
+\subsubsection*{Principios fundamentales de la arquitectura RESTful}
+
+Representational State Transfer (REST) es un estilo arquitectónico para sistemas hipermedia distribuidos, diseñado originalmente por Roy Fielding \cite{fielding2000rest}. Los servicios RESTful operan sobre el protocolo HTTP utilizando métodos estándar (GET, POST, PUT, DELETE) para realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre recursos claramente identificados mediante URIs (Identificadores Uniformes de Recursos). Este enfoque sin estado (\textit{stateless}) permite a los sistemas escalar de manera eficiente, ya que el servidor no necesita almacenar el estado de la sesión entre peticiones.
+
+\subsubsection*{Consumo e integración de APIs de terceros}
+
+La arquitectura del nuevo portal de la UAT aprovecha estos principios para integrar funcionalidades avanzadas sin necesidad de desarrollarlas desde cero, lo que optimiza tiempo y costos. Un ejemplo clave es el consumo de APIs públicas, como la integración de mapas interactivos a través de servicios REST, lo que enriquece la experiencia del usuario (por ejemplo, en la ubicación de facultades en el campus) delegando el procesamiento geoespacial a servicios de terceros.
+
+\section{Propuesta de Solución}
+\label{sec:propuesta_solucion}
+
+Con base en el marco teórico establecido, este proyecto propone una reingeniería profunda del portal institucional de la Universidad Autónoma de Tamaulipas, abordando sus tres principales debilidades: la obsolescencia de la plataforma, la ineficiencia de sus datos y la falta de interactividad en su interfaz.
+
+En primer lugar, se ejecutará la \textbf{migración hacia SharePoint Online}, adoptando un modelo SaaS que elimina la deuda técnica y los costos de mantenimiento de la antigua infraestructura \textit{On-Premises}. Esta transición dotará a la institución de un entorno elástico, altamente disponible (garantizado mediante acuerdos de nivel de servicio SLA) y constantemente actualizado en términos de seguridad (Evergreen IT).
+
+En segundo lugar, se llevará a cabo la \textbf{optimización de la arquitectura de la base de datos}. Mediante procesos rigurosos de normalización, se unificarán las estructuras dispersas, eliminando las tablas redundantes que actualmente ralentizan el sistema. La implementación de índices adecuados sobre esta nueva estructura consolidada reducirá drásticamente la latencia en las consultas de información, asegurando que los tiempos de carga cumplan con los estándares actuales exigidos por los motores de búsqueda.
+
+Finalmente, para la capa de presentación, se plantea el \textbf{rediseño de la interfaz gráfica integrando la librería React y el framework Bootstrap}. Esta sinergia tecnológica permitirá convertir módulos críticos del portal en \textit{Single Page Applications} (SPA), brindando una experiencia de usuario fluida, interactiva y sin recargas innecesarias. Todo el diseño visual estará rigurosamente apegado a la filosofía \textit{Mobile-first} para garantizar su correcta visualización en dispositivos móviles, e implementará las pautas WCAG 2.1 nivel AA, asegurando que el nuevo portal institucional de la UAT sea un entorno verdaderamente accesible e inclusivo para toda la comunidad universitaria.

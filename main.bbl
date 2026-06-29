@@ -663,6 +663,55 @@
       \field{title}{Evaluating Web Accessibility Overview}
       \field{year}{2024}
     \endentry
+    \entry{codd1990relational}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c552998e91db89e2df26934a1818d37f}{%
+           family={Codd},
+           familyi={C\bibinitperiod},
+           given={Edgar\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Publishing Company}%
+      }
+      \strng{namehash}{c552998e91db89e2df26934a1818d37f}
+      \strng{fullhash}{c552998e91db89e2df26934a1818d37f}
+      \strng{bibnamehash}{c552998e91db89e2df26934a1818d37f}
+      \strng{authorbibnamehash}{c552998e91db89e2df26934a1818d37f}
+      \strng{authornamehash}{c552998e91db89e2df26934a1818d37f}
+      \strng{authorfullhash}{c552998e91db89e2df26934a1818d37f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Relational Model for Database Management: Version 2}
+      \field{year}{1990}
+    \endentry
+    \entry{fielding2000rest}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=87dbbd44b3977c28b71d826a931add3e}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of California, Irvine}%
+      }
+      \strng{namehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{fullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{bibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorbibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authornamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorfullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Architectural Styles and the Design of Network-Based Software Architectures}
+      \field{type}{phdthesis}
+      \field{year}{2000}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
