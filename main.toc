@@ -17,16 +17,16 @@
 \contentsline {subsection}{\numberline {1.6}Temas Tentativos para el Marco Teórico}{11}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Marco Teórico}{13}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Fundamentos de Migración y Cloud Computing}{13}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Evolución de Microsoft SharePoint}{14}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Arquitectura de Sistemas Web Modernos}{15}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Frameworks y Tecnologías Frontend}{16}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Diseño Web Responsivo (RWD)}{17}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.2}Evolución de Microsoft SharePoint}{15}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Arquitectura de Sistemas Web Modernos}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Frameworks y Tecnologías Frontend}{17}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Diseño Web Responsivo (RWD)}{18}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Accesibilidad e Inclusión Digital}{18}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Optimización de Bases de Datos}{19}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Interoperabilidad y Servicios REST}{20}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.7}Optimización de Bases de Datos}{20}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Interoperabilidad y Servicios REST}{21}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Propuesta de Solución}{21}{section.3}%
-\contentsline {section}{\numberline {4}Metodología}{22}{section.4}%
-\contentsline {section}{\numberline {5}Resultados}{23}{section.5}%
-\contentsline {section}{\numberline {6}Conclusiones}{24}{section.6}%
-\contentsline {section}{Bibliografía}{25}{section.6}%
-\contentsline {section}{Anexos}{27}{section.6}%
+\contentsline {section}{\numberline {4}Metodología}{23}{section.4}%
+\contentsline {section}{\numberline {5}Resultados}{24}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{25}{section.6}%
+\contentsline {section}{Bibliografía}{26}{section.6}%
+\contentsline {section}{Anexos}{28}{section.6}%
