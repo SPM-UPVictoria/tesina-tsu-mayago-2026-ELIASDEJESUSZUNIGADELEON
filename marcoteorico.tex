@@ -48,7 +48,7 @@ Históricamente, las versiones de SharePoint (como las ediciones 2010, 2013 y 20
 
 Esta arquitectura presentaba limitaciones operativas críticas:
 \begin{itemize}
-    \item \textbf{Alta carga administrativa:} Requería equipos especializados de TI para la aplicación manual de parches de seguridad, actualizaciones y mantenimiento del hardware, lo que incrementaba el tiempo de inactividad programado \cite{kothari2017sharepoint}.
+    \item \textbf{Alta carga administrativa:} Requería equipos especializados de TI para la aplicación manual de parches de seguridad, actualizaciones y mantenimiento del hardware, lo que incrementaba el tiempo de inactividad programado \cite{smith2016sharepoint}.
     \item \textbf{Obsolescencia técnica rápida:} Los ciclos de actualización largos impedían acceder a nuevas funcionalidades lanzadas por Microsoft, provocando que los portales universitarios quedaran rápidamente desactualizados en términos de usabilidad e integración.
     \item \textbf{Baja elasticidad:} Escalar el rendimiento del portal ante picos de demanda institucional (como periodos de inscripción) implicaba la compra y configuración de nuevos servidores físicos.
 \end{itemize}
@@ -59,7 +59,7 @@ SharePoint Online es la iteración basada en la nube de la plataforma, integrada
 
 Las ventajas clave que justifican su implementación en el rediseño del portal incluyen:
 \begin{itemize}
-    \item \textbf{Actualizaciones continuas (Evergreen IT):} Microsoft gestiona el ciclo de vida del software, garantizando que la plataforma siempre opere en su última versión, incorporando mejoras de seguridad y nuevas características de forma transparente \cite{rad2023modern}.
+    \item \textbf{Actualizaciones continuas (Evergreen IT):} Microsoft gestiona el ciclo de vida del software, garantizando que la plataforma siempre opere en su última versión, incorporando mejoras de seguridad y nuevas características de forma transparente \cite{microsoft2018modernizing}.
     \item \textbf{Arquitectura plana y Hub Sites:} A diferencia de la antigua estructura jerárquica de subsitios (muy anidada y difícil de navegar), SharePoint Online promueve una arquitectura plana vinculada mediante Sitios Hub (\textit{Hub Sites}). Esto optimiza la gestión de datos, elimina redundancias y mejora drásticamente la experiencia de búsqueda.
     \item \textbf{Integración nativa e Interoperabilidad:} Al ser nativo en la nube, ofrece APIs modernas (como Microsoft Graph API) que facilitan la integración de aplicaciones personalizadas desarrolladas con librerías de frontend como React, permitiendo construir interfaces altamente interactivas e inclusivas.
 \end{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  10 JUL 2026 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  10 JUL 2026 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1937,7 +1937,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13
 
 ]
-<img/2_1_nube.png, id=313, 928.46875pt x 517.935pt>
+<img/2_1_nube.png, id=315, 928.46875pt x 517.935pt>
 File: img/2_1_nube.png Graphic file (type png)
 <use img/2_1_nube.png>
 Package pdftex.def Info: img/2_1_nube.png  used on input line 35.
@@ -2005,7 +2005,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [16]
-<img/2_3_arquitectura.png, id=335, 931.48pt x 1027.84pt>
+<img/2_3_arquitectura.png, id=336, 931.48pt x 1027.84pt>
 File: img/2_3_arquitectura.png Graphic file (type png)
 <use img/2_3_arquitectura.png>
 Package pdftex.def Info: img/2_3_arquitectura.png  used on input line 89.
@@ -2542,10 +2542,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45779 strings out of 474486
- 956958 string characters out of 5753570
- 1948542 words of memory out of 5000000
- 67311 multiletter control sequences out of 15000+600000
+ 45774 strings out of 474486
+ 956805 string characters out of 5753570
+ 1949542 words of memory out of 5000000
+ 67307 multiletter control sequences out of 15000+600000
  573243 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,22n,107p,1632b,2288s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2561,9 +2561,9 @@ eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\resen\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\resen\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\resen\
 AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (42 pages, 2216233 bytes).
+Output written on main.pdf (42 pages, 2215963 bytes).
 PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
+ 1070 PDF objects out of 1200 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

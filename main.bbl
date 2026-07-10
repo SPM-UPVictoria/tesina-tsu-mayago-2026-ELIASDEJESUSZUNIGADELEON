@@ -48,9 +48,6 @@
       \field{edition}{16}
       \field{title}{Management Information Systems: Managing the Digital Firm}
       \field{year}{2020}
-      \verb{doi}
-      \verb 10.5555/mitpress
-      \endverb
     \endentry
     \entry{turban2019}{book}{}
       \name{author}{3}{}{%
@@ -86,9 +83,6 @@
       \field{edition}{11}
       \field{title}{Information Technology for Management}
       \field{year}{2019}
-      \verb{doi}
-      \verb 10.1002/9781119563983
-      \endverb
     \endentry
     \entry{jamshidi2013cloud}{article}{}
       \name{author}{3}{}{%
@@ -141,6 +135,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -301,41 +296,62 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.flexsin.com/case-studies/}}
+      \field{howpublished}{\url{https://www.flexsin.com/portfolio/on-prem-intranet-development-and-migration-on-sharepoint-for-a-leading-american-university/}}
       \field{title}{Digital Transformation at University of Texas at Arlington using SharePoint}
       \field{year}{2019}
     \endentry
-    \entry{kushwaha2020spa}{inproceedings}{}
+    \entry{mikowski2013single}{book}{}
       \name{author}{2}{}{%
-        {{hash=992f204dfd92f04eb3cbdb376160686b}{%
-           family={Kushwaha},
-           familyi={K\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a8c9b77c90e2324b6a90b9f68ebd6d3b}{%
-           family={Vyas},
-           familyi={V\bibinitperiod},
-           given={O.\bibnamedelimi P.},
-           giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=491fd4895369cc79190d476085aa2d51}{%
+           family={Mikowski},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1f3f32d9e5b90d44039b9bf42671233e}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Josh\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {IEEE}%
+        {Manning Publications}%
       }
-      \strng{namehash}{f0c627e43472ab99e0361ee07fbef967}
-      \strng{fullhash}{f0c627e43472ab99e0361ee07fbef967}
-      \strng{bibnamehash}{f0c627e43472ab99e0361ee07fbef967}
-      \strng{authorbibnamehash}{f0c627e43472ab99e0361ee07fbef967}
-      \strng{authornamehash}{f0c627e43472ab99e0361ee07fbef967}
-      \strng{authorfullhash}{f0c627e43472ab99e0361ee07fbef967}
+      \strng{namehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{fullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{bibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authorbibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authornamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
+      \strng{authorfullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Web Engineering}
-      \field{title}{Performance Evaluation of Single Page Application architectures for Web Portals}
+      \field{title}{Single Page Web Applications: JavaScript end-to-end}
+      \field{year}{2013}
+    \endentry
+    \entry{flanagan2020javascript}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2caeb722af2e88c021f73029f9740851}{%
+           family={Flanagan},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{fullhash}{2caeb722af2e88c021f73029f9740851}
+      \strng{bibnamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authorbibnamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authornamehash}{2caeb722af2e88c021f73029f9740851}
+      \strng{authorfullhash}{2caeb722af2e88c021f73029f9740851}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language}
       \field{year}{2020}
-      \field{pages}{123\bibrangedash 134}
-      \range{pages}{12}
     \endentry
     \entry{mell2011nist}{report}{}
       \name{author}{2}{}{%
@@ -478,115 +494,56 @@
       \field{pages}{176\bibrangedash 189}
       \range{pages}{14}
     \endentry
-    \entry{kothari2017sharepoint}{book}{}
-      \name{author}{2}{}{%
-        {{hash=7aeba3ff9203534be1f9437947d46a74}{%
-           family={Kothari},
-           familyi={K\bibinitperiod},
+    \entry{smith2016sharepoint}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e798da2d2fb9d85ab02d43a40f53db8}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
            given={Tony},
            giveni={T\bibinitperiod}}}%
-        {{hash=7b8051b9481ce4c8a28e15db1282113a}{%
-           family={Curran},
-           familyi={C\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Apress}%
       }
-      \strng{namehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
-      \strng{fullhash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
-      \strng{bibnamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
-      \strng{authorbibnamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
-      \strng{authornamehash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
-      \strng{authorfullhash}{e8d7d7bb8f1b7e45a6342094ef66c99b}
+      \strng{namehash}{2e798da2d2fb9d85ab02d43a40f53db8}
+      \strng{fullhash}{2e798da2d2fb9d85ab02d43a40f53db8}
+      \strng{bibnamehash}{2e798da2d2fb9d85ab02d43a40f53db8}
+      \strng{authorbibnamehash}{2e798da2d2fb9d85ab02d43a40f53db8}
+      \strng{authornamehash}{2e798da2d2fb9d85ab02d43a40f53db8}
+      \strng{authorfullhash}{2e798da2d2fb9d85ab02d43a40f53db8}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{SharePoint 2016 User's Guide: Learning Microsoft's Business Collaboration Platform}
-      \field{year}{2017}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-2244-7
+      \endverb
     \endentry
-    \entry{rad2023modern}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
+    \entry{microsoft2018modernizing}{report}{}
       \name{author}{1}{}{%
-        {{hash=58fb7f8aea9752d0d4cd25a7dbbec58c}{%
-           family={Rad},
-           familyi={R\bibinitperiod},
-           given={Vahid},
-           giveni={V\bibinitperiod}}}%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{30641657a0e153444db878794cd8bf04}
-      \strng{fullhash}{30641657a0e153444db878794cd8bf04}
-      \strng{bibnamehash}{30641657a0e153444db878794cd8bf04}
-      \strng{authorbibnamehash}{30641657a0e153444db878794cd8bf04}
-      \strng{authornamehash}{30641657a0e153444db878794cd8bf04}
-      \strng{authorfullhash}{30641657a0e153444db878794cd8bf04}
+      \list{institution}{1}{%
+        {Microsoft Corporation}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Information Technology and Digital Transformation}
-      \field{number}{2}
-      \field{title}{Modernizing Enterprise Collaboration with Microsoft SharePoint Online: A Comprehensive Analysis}
-      \field{volume}{4}
-      \field{year}{2023}
-      \field{pages}{45\bibrangedash 58}
-      \range{pages}{14}
-    \endentry
-    \entry{mikowski2013single}{book}{}
-      \name{author}{2}{}{%
-        {{hash=491fd4895369cc79190d476085aa2d51}{%
-           family={Mikowski},
-           familyi={M\bibinitperiod},
-           given={Michael\bibnamedelima S.},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=1f3f32d9e5b90d44039b9bf42671233e}{%
-           family={Powell},
-           familyi={P\bibinitperiod},
-           given={Josh\bibnamedelima C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Manning Publications}%
-      }
-      \strng{namehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \strng{fullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \strng{bibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \strng{authorbibnamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \strng{authornamehash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \strng{authorfullhash}{c875fd7a73e2ca6b11cb6cacf712ab1e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Single Page Web Applications: JavaScript end-to-end}
-      \field{year}{2013}
-    \endentry
-    \entry{flanagan2020javascript}{book}{}
-      \name{author}{1}{}{%
-        {{hash=2caeb722af2e88c021f73029f9740851}{%
-           family={Flanagan},
-           familyi={F\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {O'Reilly Media}%
-      }
-      \strng{namehash}{2caeb722af2e88c021f73029f9740851}
-      \strng{fullhash}{2caeb722af2e88c021f73029f9740851}
-      \strng{bibnamehash}{2caeb722af2e88c021f73029f9740851}
-      \strng{authorbibnamehash}{2caeb722af2e88c021f73029f9740851}
-      \strng{authornamehash}{2caeb722af2e88c021f73029f9740851}
-      \strng{authorfullhash}{2caeb722af2e88c021f73029f9740851}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language}
-      \field{year}{2020}
+      \field{title}{Modernizing Enterprise Content Management with Microsoft Content Services}
+      \field{type}{White Paper}
+      \field{year}{2018}
     \endentry
     \entry{banks2017learning}{book}{}
       \name{author}{2}{}{%
@@ -704,8 +661,8 @@
       \strng{authorbibnamehash}{87dbbd44b3977c28b71d826a931add3e}
       \strng{authornamehash}{87dbbd44b3977c28b71d826a931add3e}
       \strng{authorfullhash}{87dbbd44b3977c28b71d826a931add3e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Architectural Styles and the Design of Network-Based Software Architectures}
