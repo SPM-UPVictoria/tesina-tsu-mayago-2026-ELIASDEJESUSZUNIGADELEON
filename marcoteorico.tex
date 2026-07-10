@@ -27,7 +27,7 @@ El ecosistema de \textit{Cloud Computing} se categoriza principalmente en tres m
 \begin{itemize}
     \item \textbf{IaaS (Infrastructure as a Service):} Proporciona recursos informáticos virtualizados a través de internet (servidores, almacenamiento, redes). El cliente gestiona el sistema operativo y las aplicaciones.
     \item \textbf{PaaS (Platform as a Service):} Ofrece un entorno de desarrollo y despliegue en la nube, entregando recursos que permiten la creación de aplicaciones en la nube sin la complejidad de construir y mantener la infraestructura subyacente.
-    \item \textbf{SaaS (Software as a Service):} Brinda acceso a aplicaciones alojadas en la nube a través de un navegador web, donde el proveedor gestiona tanto la infraestructura como el mantenimiento del software. SharePoint Online, utilizado en este proyecto, es un claro ejemplo de SaaS \cite{microsoft2024sharepoint}.
+    \item \textbf{SaaS (Software as a Service):} Brinda acceso a aplicaciones alojadas en la nube a través de un navegador web, donde el proveedor gestiona tanto la infraestructura como el mantenimiento del software. SharePoint Online, utilizado en este proyecto, es un claro ejemplo de SaaS \cite{microsoft2024sharepoint} (ver Figura \ref{fig:modelos_nube}).
 \end{itemize}
 
 \begin{figure}[htbp]
@@ -82,7 +82,7 @@ La adopción de una arquitectura SPA en el rediseño del portal de la UAT ofrece
 
 \subsubsection*{Arquitectura basada en componentes}
 
-Un pilar fundamental de los sistemas web modernos es la arquitectura basada en componentes. En lugar de estructurar el código en largos y complejos archivos de marcado, la interfaz de usuario se descompone en pequeñas piezas encapsuladas, independientes y reutilizables (por ejemplo, una barra de navegación, un botón interactivo o una tarjeta de perfil). Este paradigma facilita la escalabilidad, el mantenimiento del código a largo plazo y permite que diferentes desarrolladores trabajen en distintas piezas de la interfaz de forma paralela y sin conflictos \cite{flanagan2020javascript}.
+Un pilar fundamental de los sistemas web modernos es la arquitectura basada en componentes. En lugar de estructurar el código en largos y complejos archivos de marcado, la interfaz de usuario se descompone en pequeñas piezas encapsuladas, independientes y reutilizables (por ejemplo, una barra de navegación, un botón interactivo o una tarjeta de perfil). Este paradigma facilita la escalabilidad, el mantenimiento del código a largo plazo y permite que diferentes desarrolladores trabajen en distintas piezas de la interfaz de forma paralela y sin conflictos \cite{flanagan2020javascript}. La Figura \ref{fig:tradicional_vs_spa} ilustra la diferencia arquitectónica fundamental entre ambos enfoques.
 
 \begin{figure}[htbp]
     \centering
@@ -120,7 +120,7 @@ El RWD se fundamenta en el uso de cuadrículas fluidas (\textit{fluid grids}), i
 
 \subsubsection*{Frameworks CSS (Bootstrap) y sistemas de grillas}
 
-Escribir reglas responsivas desde cero puede ser un proceso propenso a errores e inconsistencias. Por ello, el desarrollo contemporáneo se apoya en frameworks CSS como Bootstrap \cite{bootstrap2024}. Bootstrap proporciona un robusto sistema de grillas (\textit{grid system}) de 12 columnas basado en Flexbox, lo que facilita la alineación y distribución de componentes de la interfaz de manera proporcional y automática. Su integración en el portal permite estandarizar botones, tipografía, formularios y tarjetas, acelerando el desarrollo de la interfaz de usuario bajo un estándar visual unificado y adaptable.
+Escribir reglas responsivas desde cero puede ser un proceso propenso a errores e inconsistencias. Por ello, el desarrollo contemporáneo se apoya en frameworks CSS como Bootstrap \cite{bootstrap2024}. Bootstrap proporciona un robusto sistema de grillas (\textit{grid system}) de 12 columnas basado en Flexbox, lo que facilita la alineación y distribución de componentes de la interfaz de manera proporcional y automática. Su integración en el portal permite estandarizar botones, tipografía, formularios y tarjetas, acelerando el desarrollo de la interfaz de usuario bajo un estándar visual unificado y adaptable, tal como se ejemplifica en la Figura \ref{fig:diseno_responsivo}.
 
 \begin{figure}[htbp]
     \centering
@@ -176,7 +176,14 @@ Representational State Transfer (REST) es un estilo arquitectónico para sistema
 
 \subsubsection*{Consumo e integración de APIs de terceros}
 
-La arquitectura del nuevo portal de la UAT aprovecha estos principios para integrar funcionalidades avanzadas sin necesidad de desarrollarlas desde cero, lo que optimiza tiempo y costos. Un ejemplo clave es el consumo de APIs públicas, como la integración de mapas interactivos a través de servicios REST, lo que enriquece la experiencia del usuario (por ejemplo, en la ubicación de facultades en el campus) delegando el procesamiento geoespacial a servicios de terceros.
+La arquitectura del nuevo portal de la UAT aprovecha estos principios para integrar funcionalidades avanzadas sin necesidad de desarrollarlas desde cero, lo que optimiza tiempo y costos. Un ejemplo clave es el consumo de APIs públicas, como la integración de mapas interactivos a través de servicios REST, lo que enriquece la experiencia del usuario (por ejemplo, en la ubicación de facultades en el campus) delegando el procesamiento geoespacial a servicios de terceros. El flujo completo de estas peticiones se observa en la Figura \ref{fig:api_rest}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/2_8_rest.png}
+    \caption{Ciclo de petición y respuesta en una arquitectura Cliente-Servidor mediante API REST.}
+    \label{fig:api_rest}
+\end{figure}
 
 \section{Propuesta de Solución}
 \label{sec:propuesta_solucion}
@@ -187,7 +194,7 @@ En primer lugar, se ejecutará la \textbf{migración hacia SharePoint Online}, a
 
 En segundo lugar, se llevará a cabo la \textbf{optimización de la arquitectura de la base de datos}. Mediante procesos rigurosos de normalización, se unificarán las estructuras dispersas, eliminando las tablas redundantes que actualmente ralentizan el sistema. La implementación de índices adecuados sobre esta nueva estructura consolidada reducirá drásticamente la latencia en las consultas de información, asegurando que los tiempos de carga cumplan con los estándares actuales exigidos por los motores de búsqueda.
 
-Finalmente, para la capa de presentación, se plantea el \textbf{rediseño de la interfaz gráfica integrando la librería React y el framework Bootstrap}. Esta sinergia tecnológica permitirá convertir módulos críticos del portal en \textit{Single Page Applications} (SPA), brindando una experiencia de usuario fluida, interactiva y sin recargas innecesarias. Todo el diseño visual estará rigurosamente apegado a la filosofía \textit{Mobile-first} para garantizar su correcta visualización en dispositivos móviles, e implementará las pautas WCAG 2.1 nivel AA, asegurando que el nuevo portal institucional de la UAT sea un entorno verdaderamente accesible e inclusivo para toda la comunidad universitaria.
+Finalmente, para la capa de presentación, se plantea el \textbf{rediseño de la interfaz gráfica integrando la librería React y el framework Bootstrap}. Esta sinergia tecnológica permitirá convertir módulos críticos del portal en \textit{Single Page Applications} (SPA), brindando una experiencia de usuario fluida, interactiva y sin recargas innecesarias. Todo el diseño visual estará rigurosamente apegado a la filosofía \textit{Mobile-first} para garantizar su correcta visualización en dispositivos móviles, e implementará las pautas WCAG 2.1 nivel AA, asegurando que el nuevo portal institucional de la UAT sea un entorno verdaderamente accesible e inclusivo para toda la comunidad universitaria. Las capas y herramientas de esta propuesta se resumen visualmente en la Figura \ref{fig:flujo_metodologico}.
 
 \begin{figure}[htbp]
     \centering
