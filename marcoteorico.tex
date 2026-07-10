@@ -84,6 +84,13 @@ La adopción de una arquitectura SPA en el rediseño del portal de la UAT ofrece
 
 Un pilar fundamental de los sistemas web modernos es la arquitectura basada en componentes. En lugar de estructurar el código en largos y complejos archivos de marcado, la interfaz de usuario se descompone en pequeñas piezas encapsuladas, independientes y reutilizables (por ejemplo, una barra de navegación, un botón interactivo o una tarjeta de perfil). Este paradigma facilita la escalabilidad, el mantenimiento del código a largo plazo y permite que diferentes desarrolladores trabajen en distintas piezas de la interfaz de forma paralela y sin conflictos \cite{flanagan2020javascript}.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/2_3_arquitectura.png}
+    \caption{Comparativa entre Arquitectura Web Tradicional y Single Page Application (SPA).}
+    \label{fig:tradicional_vs_spa}
+\end{figure}
+
 \subsection{Frameworks y Tecnologías Frontend}
 \label{sec:tecnologias_frontend}
 
@@ -181,3 +188,10 @@ En primer lugar, se ejecutará la \textbf{migración hacia SharePoint Online}, a
 En segundo lugar, se llevará a cabo la \textbf{optimización de la arquitectura de la base de datos}. Mediante procesos rigurosos de normalización, se unificarán las estructuras dispersas, eliminando las tablas redundantes que actualmente ralentizan el sistema. La implementación de índices adecuados sobre esta nueva estructura consolidada reducirá drásticamente la latencia en las consultas de información, asegurando que los tiempos de carga cumplan con los estándares actuales exigidos por los motores de búsqueda.
 
 Finalmente, para la capa de presentación, se plantea el \textbf{rediseño de la interfaz gráfica integrando la librería React y el framework Bootstrap}. Esta sinergia tecnológica permitirá convertir módulos críticos del portal en \textit{Single Page Applications} (SPA), brindando una experiencia de usuario fluida, interactiva y sin recargas innecesarias. Todo el diseño visual estará rigurosamente apegado a la filosofía \textit{Mobile-first} para garantizar su correcta visualización en dispositivos móviles, e implementará las pautas WCAG 2.1 nivel AA, asegurando que el nuevo portal institucional de la UAT sea un entorno verdaderamente accesible e inclusivo para toda la comunidad universitaria.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/diagrama_flujo.png}
+    \caption{Diagrama de flujo estructurado en capas para la reingeniería del portal.}
+    \label{fig:flujo_metodologico}
+\end{figure}
