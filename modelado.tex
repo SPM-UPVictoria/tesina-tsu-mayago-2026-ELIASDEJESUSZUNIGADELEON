@@ -2,7 +2,28 @@
 
 \subsection{Diagrama de Casos de Uso}
 \label{sec:casos_uso}
-% Aqui ira el diagrama de casos de uso 
+
+Para definir claramente las interacciones entre los distintos tipos de usuarios y el portal web, se elaboró un diagrama de casos de uso (véase la Figura \ref{fig:casos_uso}). Este esquema permite visualizar las acciones que puede realizar un usuario público (como la consulta de noticias, mapas interactivos y oferta educativa) en contraste con las capacidades de gestión del administrador del sistema.
+
+\begin{figure}[!tbh]
+    \centering
+    \includegraphics[width=0.9\linewidth]{img/Diagrama_casos_uso.png}
+    \caption{Diagrama de Casos de Uso del Portal Institucional}
+    \label{fig:casos_uso}
+\end{figure}
+
+\subsection{Modelo Relacional de Base de Datos}
+\label{sec:base_datos}
+
+Para garantizar la integridad y correcta gestión de la información dinámica del portal (como las noticias, el directorio del personal y la oferta educativa), se diseñó un modelo relacional de base de datos. Como se observa en la Figura \ref{fig:base_datos}, el modelo fue normalizado para evitar la redundancia de datos, separando entidades clave y estableciendo las relaciones necesarias mediante llaves primarias y foráneas.
+
+\begin{figure}[!tbh]
+    \centering
+    \includegraphics[width=\linewidth]{img/Diagrama_base_datos.png}
+    \caption{Modelo Entidad-Relación de la Base de Datos}
+    \label{fig:base_datos}
+\end{figure}
+
 \subsection{Diagrama de Actividades}
 \label{sec:actividades}
 % Aqui ira el diagrama de actividades
@@ -10,7 +31,3 @@
 \subsection{Diagrama de Secuencia}
 \label{sec:secuencia}
 % Aqui ira el diagrama de secuencia
-
-\subsection{Modelo Relacional de Base de Datos}
-\label{sec:base_datos}
-% Aqui ira el diagrama ER

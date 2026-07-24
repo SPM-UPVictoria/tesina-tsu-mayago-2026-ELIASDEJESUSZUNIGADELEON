@@ -28,14 +28,14 @@
 \contentsline {section}{\numberline {4}Metodología}{24}{section.4}%
 \contentsline {section}{\numberline {5}Modelado del Sistema}{25}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{25}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Diagrama de Actividades}{25}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Diagrama de Secuencia}{25}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Modelo Relacional de Base de Datos}{25}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Diseño de Interfaces de Usuario}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Mockups Estructurales}{26}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Diseño de Experiencia de Usuario en Figma (UX)}{26}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Programación y Desarrollo}{27}{section.7}%
-\contentsline {section}{\numberline {8}Resultados}{28}{section.8}%
-\contentsline {section}{\numberline {9}Conclusiones}{29}{section.9}%
-\contentsline {section}{Bibliografía}{30}{section.9}%
-\contentsline {section}{Anexos}{32}{section.9}%
+\contentsline {subsection}{\numberline {5.2}Modelo Relacional de Base de Datos}{25}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diagrama de Actividades}{26}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Diagrama de Secuencia}{26}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Diseño de Interfaces de Usuario}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Mockups Estructurales}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Diseño de Experiencia de Usuario en Figma (UX)}{27}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Programación y Desarrollo}{28}{section.7}%
+\contentsline {section}{\numberline {8}Resultados}{29}{section.8}%
+\contentsline {section}{\numberline {9}Conclusiones}{30}{section.9}%
+\contentsline {section}{Bibliografía}{31}{section.9}%
+\contentsline {section}{Anexos}{33}{section.9}%
