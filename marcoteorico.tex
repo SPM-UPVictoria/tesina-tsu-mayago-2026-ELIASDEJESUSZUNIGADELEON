@@ -1,0 +1,204 @@
+\section{Marco Teórico}
+\label{ch:marco_teorico}
+
+El presente capítulo desarrolla los fundamentos teóricos y tecnológicos que sustentan el rediseño y modernización del portal institucional de la Universidad Autónoma de Tamaulipas (UAT). Se abordan conceptos clave que justifican la transición hacia un entorno moderno en la nube y el uso de tecnologías actuales para el desarrollo web y la gestión de datos.
+
+\subsection{Fundamentos de Migración y Cloud Computing}
+\label{sec:fundamentos_cloud}
+
+La evolución de la infraestructura de tecnologías de la información ha llevado a las organizaciones a replantear sus arquitecturas tradicionales, conocidas como locales o \textit{On-Premises}, hacia entornos basados en la computación en la nube (\textit{Cloud Computing}). Según el Instituto Nacional de Estándares y Tecnología (NIST), la computación en la nube es un modelo que permite el acceso ubicuo, conveniente y bajo demanda a través de la red a un conjunto compartido de recursos informáticos configurables, que pueden ser rápidamente aprovisionados y liberados con un esfuerzo de gestión mínimo \cite{mell2011nist}.
+
+\subsubsection*{Beneficios de la migración de sistemas legados}
+
+Un sistema legado (\textit{legacy system}) se define como una tecnología, sistema informático o aplicación que ha quedado obsoleta, pero sigue siendo utilizada porque aún cumple con las funciones para las que fue diseñada originalmente \cite{bisbal1999legacy}. No obstante, mantener sistemas legados implica altos costos operativos, deuda técnica acumulada y vulnerabilidades de seguridad significativas.
+
+La migración de estos sistemas hacia plataformas modernas en la nube ofrece beneficios sustanciales:
+\begin{itemize}
+    \item \textbf{Reducción de costos operativos (OpEx):} Elimina la necesidad de adquirir, mantener y actualizar hardware físico (CapEx), pagando únicamente por los recursos consumidos.
+    \item \textbf{Escalabilidad y flexibilidad elástica:} Los recursos pueden aumentar o disminuir dinámicamente en función de la demanda del tráfico web, asegurando alta disponibilidad.
+    \item \textbf{Seguridad y cumplimiento normativo:} Los proveedores de nube ofrecen infraestructuras respaldadas por certificaciones globales de seguridad y actualizaciones de software automáticas.
+    \item \textbf{Innovación acelerada:} Permite la adopción de nuevas tecnologías y arquitecturas sin las restricciones del hardware obsoleto.
+\end{itemize}
+
+\subsubsection*{Modelos de servicios en la nube}
+
+El ecosistema de \textit{Cloud Computing} se categoriza principalmente en tres modelos de servicio, cada uno ofreciendo un nivel distinto de control y gestión para el usuario \cite{marston2011cloud}:
+
+\begin{itemize}
+    \item \textbf{IaaS (Infrastructure as a Service):} Proporciona recursos informáticos virtualizados a través de internet (servidores, almacenamiento, redes). El cliente gestiona el sistema operativo y las aplicaciones.
+    \item \textbf{PaaS (Platform as a Service):} Ofrece un entorno de desarrollo y despliegue en la nube, entregando recursos que permiten la creación de aplicaciones en la nube sin la complejidad de construir y mantener la infraestructura subyacente.
+    \item \textbf{SaaS (Software as a Service):} Brinda acceso a aplicaciones alojadas en la nube a través de un navegador web, donde el proveedor gestiona tanto la infraestructura como el mantenimiento del software. SharePoint Online, utilizado en este proyecto, es un claro ejemplo de SaaS \cite{microsoft2024sharepoint} (ver Figura \ref{fig:modelos_nube}).
+\end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/2_1_nube.png}
+    \caption{Comparativa de niveles de administración en los modelos de Cloud Computing.}
+    \label{fig:modelos_nube}
+\end{figure}
+
+\subsection{Evolución de Microsoft SharePoint}
+\label{sec:evolucion_sharepoint}
+
+Microsoft SharePoint ha evolucionado significativamente desde su concepción como una herramienta de gestión documental centralizada, transformándose en una plataforma integral de colaboración y gestión de contenidos empresariales (ECM). Esta evolución ha estado fuertemente ligada a la transición de la industria hacia modelos de \textit{Cloud Computing}.
+
+\subsubsection*{Limitaciones de arquitecturas On-Premises}
+
+Históricamente, las versiones de SharePoint (como las ediciones 2010, 2013 y 2019) requerían una arquitectura \textit{On-Premises}, donde la institución alojaba físicamente los servidores, configuraba las granjas de servidores (\textit{server farms}) y gestionaba directamente las bases de datos en SQL Server.
+
+Esta arquitectura presentaba limitaciones operativas críticas:
+\begin{itemize}
+    \item \textbf{Alta carga administrativa:} Requería equipos especializados de TI para la aplicación manual de parches de seguridad, actualizaciones y mantenimiento del hardware, lo que incrementaba el tiempo de inactividad programado \cite{smith2016sharepoint}.
+    \item \textbf{Obsolescencia técnica rápida:} Los ciclos de actualización largos impedían acceder a nuevas funcionalidades lanzadas por Microsoft, provocando que los portales universitarios quedaran rápidamente desactualizados en términos de usabilidad e integración.
+    \item \textbf{Baja elasticidad:} Escalar el rendimiento del portal ante picos de demanda institucional (como periodos de inscripción) implicaba la compra y configuración de nuevos servidores físicos.
+\end{itemize}
+
+\subsubsection*{Características y ventajas de SharePoint Online}
+
+SharePoint Online es la iteración basada en la nube de la plataforma, integrada dentro del ecosistema de Microsoft 365, operando bajo el modelo SaaS. Su adopción mitiga las deficiencias de los sistemas locales y proporciona una arquitectura moderna.
+
+Las ventajas clave que justifican su implementación en el rediseño del portal incluyen:
+\begin{itemize}
+    \item \textbf{Actualizaciones continuas (Evergreen IT):} Microsoft gestiona el ciclo de vida del software, garantizando que la plataforma siempre opere en su última versión, incorporando mejoras de seguridad y nuevas características de forma transparente \cite{microsoft2018modernizing}.
+    \item \textbf{Arquitectura plana y Hub Sites:} A diferencia de la antigua estructura jerárquica de subsitios (muy anidada y difícil de navegar), SharePoint Online promueve una arquitectura plana vinculada mediante Sitios Hub (\textit{Hub Sites}). Esto optimiza la gestión de datos, elimina redundancias y mejora drásticamente la experiencia de búsqueda.
+    \item \textbf{Integración nativa e Interoperabilidad:} Al ser nativo en la nube, ofrece APIs modernas (como Microsoft Graph API) que facilitan la integración de aplicaciones personalizadas desarrolladas con librerías de frontend como React, permitiendo construir interfaces altamente interactivas e inclusivas.
+\end{itemize}
+
+\subsection{Arquitectura de Sistemas Web Modernos}
+\label{sec:arquitectura_web_moderna}
+
+El diseño de portales institucionales ha migrado de las arquitecturas tradicionales orientadas a múltiples páginas hacia paradigmas que priorizan la fluidez y la interactividad en el lado del cliente (frontend).
+
+\subsubsection*{Transición a Single Page Applications (SPA)}
+
+Las aplicaciones tradicionales recargan la página completa cada vez que el usuario navega a una nueva sección o interactúa con el servidor. En contraste, una \textit{Single Page Application} (SPA) es una aplicación o sitio web que interactúa con el usuario reescribiendo dinámicamente la página actual en lugar de cargar páginas enteras desde el servidor. Este enfoque evita la interrupción de la experiencia del usuario entre páginas sucesivas, logrando que la aplicación se comporte más como una aplicación de escritorio \cite{mikowski2013single}.
+
+La adopción de una arquitectura SPA en el rediseño del portal de la UAT ofrece:
+\begin{itemize}
+    \item \textbf{Mayor rendimiento:} Después de la carga inicial, solo se transmiten los datos (usualmente en formato JSON) en lugar del HTML completo, lo que reduce drásticamente el consumo de ancho de banda y el tiempo de latencia en consultas al servidor.
+    \item \textbf{Experiencia de usuario fluida:} Las transiciones entre módulos (como la navegación en el mapa del campus) son instantáneas, eliminando los molestos destellos blancos de recarga.
+    \item \textbf{Desacoplamiento frontend-backend:} Permite que la capa visual (SPA) evolucione independientemente de la lógica de negocio y base de datos (SharePoint), comunicándose exclusivamente a través de APIs web.
+\end{itemize}
+
+\subsubsection*{Arquitectura basada en componentes}
+
+Un pilar fundamental de los sistemas web modernos es la arquitectura basada en componentes. En lugar de estructurar el código en largos y complejos archivos de marcado, la interfaz de usuario se descompone en pequeñas piezas encapsuladas, independientes y reutilizables (por ejemplo, una barra de navegación, un botón interactivo o una tarjeta de perfil). Este paradigma facilita la escalabilidad, el mantenimiento del código a largo plazo y permite que diferentes desarrolladores trabajen en distintas piezas de la interfaz de forma paralela y sin conflictos \cite{flanagan2020javascript}. La Figura \ref{fig:tradicional_vs_spa} ilustra la diferencia arquitectónica fundamental entre ambos enfoques.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/2_3_arquitectura.png}
+    \caption{Comparativa entre Arquitectura Web Tradicional y Single Page Application (SPA).}
+    \label{fig:tradicional_vs_spa}
+\end{figure}
+
+\subsection{Frameworks y Tecnologías Frontend}
+\label{sec:tecnologias_frontend}
+
+Para materializar las arquitecturas modernas descritas, es indispensable el uso de herramientas de software especializadas. En la actualidad, el desarrollo frontend está dominado por ecosistemas basados en JavaScript que simplifican la manipulación del Document Object Model (DOM) del navegador.
+
+\subsubsection*{Fundamentos de React: Renderizado dinámico y estado}
+
+React es una biblioteca de JavaScript de código abierto desarrollada por Meta (anteriormente Facebook) especializada en la construcción de interfaces de usuario bajo el esquema de arquitectura basada en componentes \cite{react2024facebook}. Su selección para este proyecto responde a dos conceptos técnicos revolucionarios:
+
+\begin{itemize}
+    \item \textbf{Virtual DOM:} En lugar de actualizar directamente el DOM del navegador (una operación computacionalmente costosa que ralentiza los sitios web), React mantiene una copia ligera en memoria llamada DOM Virtual. Cuando los datos cambian, React calcula eficientemente la diferencia (\textit{diffing}) entre el estado anterior y el nuevo, y actualiza en el DOM real únicamente los nodos exactos que sufrieron modificaciones \cite{banks2017learning}.
+    \item \textbf{Gestión del estado (State):} React permite que los componentes mantengan su propio estado interno. Esta capacidad es esencial para crear interfaces dinámicas donde los elementos visuales responden en tiempo real a las acciones del usuario sin necesidad de solicitar información adicional al servidor de manera constante.
+\end{itemize}
+
+\subsubsection*{Integración de herramientas de desarrollo modernas}
+
+El uso de React no ocurre de forma aislada; se integra dentro de un ecosistema moderno que optimiza el flujo de trabajo del desarrollador. Herramientas como TypeScript (que añade tipado estático a JavaScript para prevenir errores en tiempo de compilación), Node.js (entorno de ejecución), y empaquetadores de módulos (como Webpack o Vite) son estándares de la industria que garantizan que el código del portal sea robusto, auditable y altamente optimizado antes de su despliegue a producción.
+
+\subsection{Diseño Web Responsivo (RWD)}
+\label{sec:rwd}
+
+En el contexto actual, los usuarios acceden a los portales institucionales desde una amplia variedad de dispositivos con distintos tamaños de pantalla, desde monitores de escritorio hasta teléfonos inteligentes. Para asegurar una experiencia visual óptima sin importar el dispositivo, es imperativo implementar un Diseño Web Responsivo (\textit{Responsive Web Design} o RWD).
+
+\subsubsection*{Principios de adaptabilidad y enfoque Mobile-first}
+
+El RWD se fundamenta en el uso de cuadrículas fluidas (\textit{fluid grids}), imágenes flexibles y consultas de medios (\textit{media queries}) en CSS para adaptar dinámicamente la presentación del contenido al tamaño del viewport del usuario \cite{marcotte2014responsive}. Un enfoque moderno de este diseño es la filosofía \textit{Mobile-first}, la cual establece que el diseño y la programación deben iniciar estructurando la versión para dispositivos móviles y, progresivamente, escalar y agregar complejidad visual para pantallas más grandes. Esta práctica no solo garantiza que la interfaz principal sea ligera y funcional en teléfonos, sino que también obliga a priorizar el contenido más relevante para el usuario.
+
+\subsubsection*{Frameworks CSS (Bootstrap) y sistemas de grillas}
+
+Escribir reglas responsivas desde cero puede ser un proceso propenso a errores e inconsistencias. Por ello, el desarrollo contemporáneo se apoya en frameworks CSS como Bootstrap \cite{bootstrap2024}. Bootstrap proporciona un robusto sistema de grillas (\textit{grid system}) de 12 columnas basado en Flexbox, lo que facilita la alineación y distribución de componentes de la interfaz de manera proporcional y automática. Su integración en el portal permite estandarizar botones, tipografía, formularios y tarjetas, acelerando el desarrollo de la interfaz de usuario bajo un estándar visual unificado y adaptable, tal como se ejemplifica en la Figura \ref{fig:diseno_responsivo}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/2_5_diseno.png}
+    \caption{Adaptabilidad visual del Diseño Web Responsivo en diferentes dispositivos.}
+    \label{fig:diseno_responsivo}
+\end{figure}
+
+\subsection{Accesibilidad e Inclusión Digital}
+\label{sec:accesibilidad}
+
+Un portal universitario público tiene la responsabilidad inherente de garantizar que todos los usuarios, independientemente de sus capacidades físicas, sensoriales o cognitivas, puedan acceder, comprender y navegar eficientemente por su contenido. La accesibilidad web asegura que las herramientas digitales no presenten barreras de entrada, promoviendo la inclusión digital de toda la comunidad educativa.
+
+\subsubsection*{Estándares y pautas WCAG 2.1}
+
+La iniciativa de Accesibilidad Web (WAI) del World Wide Web Consortium (W3C) ha desarrollado las Pautas de Accesibilidad para el Contenido Web (WCAG, por sus siglas en inglés). La versión WCAG 2.1 es el estándar internacional vigente que define criterios técnicos para hacer el contenido web más accesible \cite{w3c2018wcag}.
+
+Estas pautas se fundamentan en cuatro principios esenciales (POUR):
+\begin{itemize}
+    \item \textbf{Perceptible:} La información y los componentes de la interfaz deben ser presentados a los usuarios de manera que puedan percibirlos (por ejemplo, proporcionar texto alternativo para imágenes).
+    \item \textbf{Operable:} Los componentes de la interfaz y la navegación deben ser manejables, asegurando que todas las funcionalidades sean accesibles mediante el teclado sin forzar un límite de tiempo perjudicial.
+    \item \textbf{Comprensible:} El texto debe ser legible, y el funcionamiento de las páginas web debe ser predecible.
+    \item \textbf{Robusto:} El contenido debe ser lo suficientemente robusto para ser interpretado de manera fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia (lectores de pantalla).
+\end{itemize}
+
+\subsubsection*{Implementación y pruebas de diseño inclusivo}
+
+Para cumplir con el nivel de conformidad AA de las WCAG 2.1 exigido en instituciones públicas, el rediseño del portal debe contemplar atributos semánticos ARIA (\textit{Accessible Rich Internet Applications}), uso de contrastes de color apropiados y jerarquías claras de encabezados (H1, H2, H3). Adicionalmente, el ciclo de desarrollo debe incorporar la validación continua mediante herramientas automatizadas (como \textit{Lighthouse} o \textit{WAVE}) y pruebas manuales, asegurando que las interfaces dinámicas construidas con React notifiquen correctamente a los lectores de pantalla sobre cambios de estado o actualizaciones en el contenido \cite{w3c2024evaluate}.
+
+\subsection{Optimización de Bases de Datos}
+\label{sec:optimizacion_bd}
+
+El núcleo de cualquier sistema de información es su base de datos. En portales institucionales heredados, es común encontrar estructuras de datos creadas de forma empírica que, con el tiempo, derivan en redundancia e inconsistencia. La optimización de la capa de persistencia de datos es vital para asegurar tiempos de respuesta ágiles y un consumo eficiente de los recursos del servidor.
+
+\subsubsection*{Modelo relacional y principios de normalización}
+
+El modelo relacional establece que los datos deben estructurarse en tablas formadas por filas y columnas, vinculadas mediante claves primarias y foráneas \cite{codd1990relational}. Para optimizar este modelo, se aplica el proceso de normalización, el cual consiste en aplicar una serie de reglas (formas normales) diseñadas para eliminar la redundancia de los datos y prevenir anomalías de inserción, actualización o borrado.
+
+En el contexto del portal de la UAT, aplicar al menos hasta la Tercera Forma Normal (3FN) garantiza que cada tabla tenga un propósito único y que los campos dependan exclusivamente de su clave principal, reduciendo drásticamente el espacio de almacenamiento y mejorando la integridad referencial \cite{silberschatz2020database}.
+
+\subsubsection*{Indexación y alto rendimiento en consultas web}
+
+La normalización aísla los datos, pero las consultas web frecuentemente requieren cruzar información de múltiples tablas (mediante operaciones \textit{JOIN}). Para que esto ocurra en milisegundos, es necesario implementar estrategias de indexación. Un índice funciona de manera análoga al índice de un libro, permitiendo al motor de la base de datos localizar las filas correspondientes de forma logarítmica (usualmente usando árboles B) en lugar de realizar escaneos secuenciales completos sobre la tabla, lo cual es insostenible en bases de datos a escala institucional.
+
+\subsection{Interoperabilidad y Servicios REST}
+\label{sec:interoperabilidad_rest}
+
+Un portal web moderno rara vez opera de forma aislada; necesita interoperar con otras aplicaciones y servicios. Esta interoperabilidad se logra mayoritariamente mediante el consumo de interfaces de programación de aplicaciones (APIs).
+
+\subsubsection*{Principios fundamentales de la arquitectura RESTful}
+
+Representational State Transfer (REST) es un estilo arquitectónico para sistemas hipermedia distribuidos, diseñado originalmente por Roy Fielding \cite{fielding2000rest}. Los servicios RESTful operan sobre el protocolo HTTP utilizando métodos estándar (GET, POST, PUT, DELETE) para realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre recursos claramente identificados mediante URIs (Identificadores Uniformes de Recursos). Este enfoque sin estado (\textit{stateless}) permite a los sistemas escalar de manera eficiente, ya que el servidor no necesita almacenar el estado de la sesión entre peticiones.
+
+\subsubsection*{Consumo e integración de APIs de terceros}
+
+La arquitectura del nuevo portal de la UAT aprovecha estos principios para integrar funcionalidades avanzadas sin necesidad de desarrollarlas desde cero, lo que optimiza tiempo y costos. Un ejemplo clave es el consumo de APIs públicas, como la integración de mapas interactivos a través de servicios REST, lo que enriquece la experiencia del usuario (por ejemplo, en la ubicación de facultades en el campus) delegando el procesamiento geoespacial a servicios de terceros. El flujo completo de estas peticiones se observa en la Figura \ref{fig:api_rest}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/2_8_rest.png}
+    \caption{Ciclo de petición y respuesta en una arquitectura Cliente-Servidor mediante API REST.}
+    \label{fig:api_rest}
+\end{figure}
+
+\section{Propuesta de Solución}
+\label{sec:propuesta_solucion}
+
+Con base en el marco teórico establecido, este proyecto propone una reingeniería profunda del portal institucional de la Universidad Autónoma de Tamaulipas, abordando sus tres principales debilidades: la obsolescencia de la plataforma, la ineficiencia de sus datos y la falta de interactividad en su interfaz.
+
+En primer lugar, se ejecutará la \textbf{migración hacia SharePoint Online}, adoptando un modelo SaaS que elimina la deuda técnica y los costos de mantenimiento de la antigua infraestructura \textit{On-Premises}. Esta transición dotará a la institución de un entorno elástico, altamente disponible (garantizado mediante acuerdos de nivel de servicio SLA) y constantemente actualizado en términos de seguridad (Evergreen IT).
+
+En segundo lugar, se llevará a cabo la \textbf{optimización de la arquitectura de la base de datos}. Mediante procesos rigurosos de normalización, se unificarán las estructuras dispersas, eliminando las tablas redundantes que actualmente ralentizan el sistema. La implementación de índices adecuados sobre esta nueva estructura consolidada reducirá drásticamente la latencia en las consultas de información, asegurando que los tiempos de carga cumplan con los estándares actuales exigidos por los motores de búsqueda.
+
+Finalmente, para la capa de presentación, se plantea el \textbf{rediseño de la interfaz gráfica integrando la librería React y el framework Bootstrap}. Esta sinergia tecnológica permitirá convertir módulos críticos del portal en \textit{Single Page Applications} (SPA), brindando una experiencia de usuario fluida, interactiva y sin recargas innecesarias. Todo el diseño visual estará rigurosamente apegado a la filosofía \textit{Mobile-first} para garantizar su correcta visualización en dispositivos móviles, e implementará las pautas WCAG 2.1 nivel AA, asegurando que el nuevo portal institucional de la UAT sea un entorno verdaderamente accesible e inclusivo para toda la comunidad universitaria. Las capas y herramientas de esta propuesta se resumen visualmente en la Figura \ref{fig:flujo_metodologico}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/diagrama_flujo.png}
+    \caption{Diagrama de flujo estructurado en capas para la reingeniería del portal.}
+    \label{fig:flujo_metodologico}
+\end{figure}
