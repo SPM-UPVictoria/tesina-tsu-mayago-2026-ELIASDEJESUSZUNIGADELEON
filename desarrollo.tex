@@ -1,2 +1,32 @@
 \section{Programación y Desarrollo}
 \label{sec:desarrollo}
+
+\subsection{Arquitectura Técnica}
+El portal web institucional fue desarrollado bajo un modelo de arquitectura Cliente-Servidor. El cliente opera como una \textit{Single Page Application} (SPA), lo que permite al navegador cargar un único documento HTML y actualizar dinámicamente su contenido sin necesidad de recargar la página. La comunicación entre el cliente y los servicios de respaldo se realiza mediante peticiones HTTP asíncronas para el consumo de servicios web tipo RESTful, optimizando los tiempos de respuesta.
+
+\subsection{Stack Tecnológico}
+Para la construcción e implementación del sistema se empleó un conjunto robusto de herramientas y librerías:
+\begin{itemize}
+    \item \textbf{Frontend (Capa de Presentación):} Se utilizó React (librería de JavaScript) apoyado en el \textit{framework} Bootstrap para garantizar un diseño responsivo (adaptable a dispositivos móviles).
+    \item \textbf{Backend y CMS (Capa de Lógica y Datos):} Se implementó SharePoint Online como Sistema de Gestión de Contenidos (CMS), actuando como repositorio de archivos y gestor de datos para el directorio.
+    \item \textbf{Integración de Georeferencia:} Para el módulo de campus interactivo se empleó la librería de JavaScript Leaflet, consumiendo la cartografía libre de OpenStreetMap.
+    \item \textbf{Servicios de Terceros (APIs):} Se integraron las interfaces de programación de aplicaciones de YouTube e Instagram para la consulta asíncrona de redes sociales.
+    \item \textbf{Intercambio de Información:} La transferencia de datos cliente-servidor se estandarizó utilizando el formato JSON.
+\end{itemize}
+
+\subsection{Patrones de Diseño}
+El desarrollo del código se estructuró siguiendo una adaptación moderna del patrón arquitectónico Modelo-Vista-Controlador (MVC):
+\begin{itemize}
+    \item \textbf{Modelo:} Definido por los esquemas de datos, listas y metadatos alojados en SharePoint (ej. la estructura de la base de datos de empleados y noticias).
+    \item \textbf{Vista:} Conformada por los componentes visuales de React (ej. las tarjetas del directorio, acordeones y modales) con los que interactúa el usuario final.
+    \item \textbf{Controlador:} Implementado a través de funciones y \textit{Hooks} de React que capturan los eventos del usuario, procesan las peticiones a la API y actualizan el estado visual de la página.
+\end{itemize}
+
+\subsection{Estructuración del Código}
+Para garantizar la escalabilidad y el mantenimiento del proyecto, el código fuente del aplicativo web se organizó en una jerarquía de carpetas basada en componentes:
+\begin{itemize}
+    \item \textbf{\texttt{/components}:} Almacena fragmentos de código reutilizables e independientes de la interfaz (botones, barras de búsqueda, alertas).
+    \item \textbf{\texttt{/views}:} Contiene las pantallas principales del sistema (Inicio, Directorio, Campus) que agrupan diversos subcomponentes.
+    \item \textbf{\texttt{/services}:} Centraliza los archivos encargados de ejecutar las llamadas a la API, separando estrictamente la lógica de red de la capa visual.
+    \item \textbf{\texttt{/assets}:} Directorio destinado al almacenamiento de recursos estáticos locales (fotografías, escudos institucionales, iconografía y hojas de estilo CSS).
+\end{itemize}

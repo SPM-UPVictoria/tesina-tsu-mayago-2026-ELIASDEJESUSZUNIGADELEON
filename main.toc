@@ -35,7 +35,11 @@
 \contentsline {subsection}{\numberline {6.1}Mockups Estructurales}{32}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Diseño de Experiencia de Usuario en Figma (UX)}{32}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Programación y Desarrollo}{33}{section.7}%
-\contentsline {section}{\numberline {8}Resultados}{34}{section.8}%
-\contentsline {section}{\numberline {9}Conclusiones}{35}{section.9}%
-\contentsline {section}{Bibliografía}{36}{section.9}%
-\contentsline {section}{Anexos}{38}{section.9}%
+\contentsline {subsection}{\numberline {7.1}Arquitectura Técnica}{33}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Stack Tecnológico}{33}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Patrones de Diseño}{33}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Estructuración del Código}{34}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Resultados}{35}{section.8}%
+\contentsline {section}{\numberline {9}Conclusiones}{36}{section.9}%
+\contentsline {section}{Bibliografía}{37}{section.9}%
+\contentsline {section}{Anexos}{39}{section.9}%
