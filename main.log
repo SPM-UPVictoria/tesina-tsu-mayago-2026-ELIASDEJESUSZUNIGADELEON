@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  1 AUG 2026 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.2)  1 AUG 2026 15:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2570,12 +2570,12 @@ Package pdftex.def Info: img/mockups_figma/Oferta_Educativa_-_Figma.png  used on
 File: img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Mockup.png>
 Package pdftex.def Info: img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Mockup.png  used on input line 375.
-(pdftex.def)             Requested size: 83.42082pt x 163.17268pt.
+(pdftex.def)             Requested size: 96.75969pt x 189.26375pt.
 <img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Figma.png, id=696, 1734.48pt x 3392.675pt>
 File: img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Figma.png>
 Package pdftex.def Info: img/mockups_figma/Oferta_Educativa_Plan_generacional_-_Figma.png  used on input line 380.
-(pdftex.def)             Requested size: 83.42082pt x 163.17268pt.
+(pdftex.def)             Requested size: 96.75969pt x 189.26375pt.
 <img/mockups_figma/Oferta_Educativa_Plan_Reforma_-_Mockup.png, id=697, 1734.48pt x 3392.675pt>
 File: img/mockups_figma/Oferta_Educativa_Plan_Reforma_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Oferta_Educativa_Plan_Reforma_-_Mockup.png>
@@ -2643,40 +2643,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <img/mockups_figma/Campus_-_Mockup.png, id=721, 1734.48pt x 2213.26875pt>
 File: img/mockups_figma/Campus_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Campus_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Campus_-_Mockup.png  used on input line 424.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
+Package pdftex.def Info: img/mockups_figma/Campus_-_Mockup.png  used on input line 425.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
 <img/mockups_figma/Campus_-_Figma.png, id=722, 1734.48pt x 2213.26875pt>
 File: img/mockups_figma/Campus_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Campus_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Campus_-_Figma.png  used on input line 429.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
+Package pdftex.def Info: img/mockups_figma/Campus_-_Figma.png  used on input line 430.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
 <img/mockups_figma/Campus_acordeon_-_Mockup.png, id=723, 1734.48pt x 2213.26875pt>
 File: img/mockups_figma/Campus_acordeon_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Campus_acordeon_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Campus_acordeon_-_Mockup.png  used on input line 439.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
+Package pdftex.def Info: img/mockups_figma/Campus_acordeon_-_Mockup.png  used on input line 440.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
 <img/mockups_figma/Campus_acordeon_-_Figma.png, id=724, 1734.48pt x 2213.26875pt>
 File: img/mockups_figma/Campus_acordeon_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Campus_acordeon_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Campus_acordeon_-_Figma.png  used on input line 444.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
-<img/mockups_figma/Campus_card_mapa_-_Mockup.png, id=725, 1734.48pt x 2213.26875pt>
-File: img/mockups_figma/Campus_card_mapa_-_Mockup.png Graphic file (type png)
-<use img/mockups_figma/Campus_card_mapa_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Campus_card_mapa_-_Mockup.png  used on input line 454.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
-<img/mockups_figma/Campus_card_mapa_-_Figma.png, id=726, 1734.48pt x 2213.26875pt>
-File: img/mockups_figma/Campus_card_mapa_-_Figma.png Graphic file (type png)
-<use img/mockups_figma/Campus_card_mapa_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Campus_card_mapa_-_Figma.png  used on input line 459.
-(pdftex.def)             Requested size: 117.64136pt x 150.11528pt.
+Package pdftex.def Info: img/mockups_figma/Campus_acordeon_-_Figma.png  used on input line 445.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 464.
+Package pdftex.def Info: UTYP.png  used on input line 450.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 464.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 450.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -2692,14 +2682,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42
 
- <./img/mockups_figma/Campus_-_Mockup.png> <./img/mockups_figma/Campus_-_Figma.png> <./img/mockups_figma/Campus_acordeon_-_Mockup.png> <./img/mockups_figma/Campus_acordeon_-_Figma.png>]
+ <./img/mockups_figma/Campus_-_Mockup.png> <./img/mockups_figma/Campus_-_Figma.png>]
+<img/mockups_figma/Campus_card_mapa_-_Mockup.png, id=733, 1734.48pt x 2213.26875pt>
+File: img/mockups_figma/Campus_card_mapa_-_Mockup.png Graphic file (type png)
+<use img/mockups_figma/Campus_card_mapa_-_Mockup.png>
+Package pdftex.def Info: img/mockups_figma/Campus_card_mapa_-_Mockup.png  used on input line 455.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
+<img/mockups_figma/Campus_card_mapa_-_Figma.png, id=734, 1734.48pt x 2213.26875pt>
+File: img/mockups_figma/Campus_card_mapa_-_Figma.png Graphic file (type png)
+<use img/mockups_figma/Campus_card_mapa_-_Figma.png>
+Package pdftex.def Info: img/mockups_figma/Campus_card_mapa_-_Figma.png  used on input line 460.
+(pdftex.def)             Requested size: 204.58217pt x 261.05537pt.
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 465.
+Package pdftex.def Info: UTYP.png  used on input line 466.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 465.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 466.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -2713,34 +2713,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[43 <./img/mockups_figma/Campus_card_mapa_-_Mockup.png> <./img/mockups_figma/Campus_card_mapa_-_Figma.png>]
-<img/mockups_figma/Docente_solo_-_Mockup.png, id=745, 1734.48pt x 2195.20125pt>
-File: img/mockups_figma/Docente_solo_-_Mockup.png Graphic file (type png)
-<use img/mockups_figma/Docente_solo_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Docente_solo_-_Mockup.png  used on input line 472.
-(pdftex.def)             Requested size: 118.59413pt x 150.0957pt.
-<img/mockups_figma/Docente_solo_-_Figma.png, id=746, 1734.48pt x 2195.20125pt>
-File: img/mockups_figma/Docente_solo_-_Figma.png Graphic file (type png)
-<use img/mockups_figma/Docente_solo_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Docente_solo_-_Figma.png  used on input line 477.
-(pdftex.def)             Requested size: 118.59413pt x 150.0957pt.
-<img/mockups_figma/Docentes_-_Mockup.png, id=747, 1734.48pt x 2037.6125pt>
+[43 <./img/mockups_figma/Campus_acordeon_-_Mockup.png> <./img/mockups_figma/Campus_acordeon_-_Figma.png> <./img/mockups_figma/Campus_card_mapa_-_Mockup.png> <./img/mockups_figma/Campus_card_mapa_-_Figma.png>]
+<img/mockups_figma/Docentes_-_Mockup.png, id=745, 1734.48pt x 2037.6125pt>
 File: img/mockups_figma/Docentes_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Docentes_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Docentes_-_Mockup.png  used on input line 487.
+Package pdftex.def Info: img/mockups_figma/Docentes_-_Mockup.png  used on input line 473.
 (pdftex.def)             Requested size: 127.77785pt x 150.10939pt.
-<img/mockups_figma/Docentes_-_Figma.png, id=748, 1734.48pt x 2037.6125pt>
+<img/mockups_figma/Docentes_-_Figma.png, id=746, 1734.48pt x 2037.6125pt>
 File: img/mockups_figma/Docentes_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Docentes_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Docentes_-_Figma.png  used on input line 492.
+Package pdftex.def Info: img/mockups_figma/Docentes_-_Figma.png  used on input line 478.
 (pdftex.def)             Requested size: 127.77785pt x 150.10939pt.
+<img/mockups_figma/Docente_solo_-_Mockup.png, id=747, 1734.48pt x 2195.20125pt>
+File: img/mockups_figma/Docente_solo_-_Mockup.png Graphic file (type png)
+<use img/mockups_figma/Docente_solo_-_Mockup.png>
+Package pdftex.def Info: img/mockups_figma/Docente_solo_-_Mockup.png  used on input line 488.
+(pdftex.def)             Requested size: 118.59413pt x 150.0957pt.
+<img/mockups_figma/Docente_solo_-_Figma.png, id=748, 1734.48pt x 2195.20125pt>
+File: img/mockups_figma/Docente_solo_-_Figma.png Graphic file (type png)
+<use img/mockups_figma/Docente_solo_-_Figma.png>
+Package pdftex.def Info: img/mockups_figma/Docente_solo_-_Figma.png  used on input line 493.
+(pdftex.def)             Requested size: 118.59413pt x 150.0957pt.
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 499.
+Package pdftex.def Info: UTYP.png  used on input line 501.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 499.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 501.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -2756,34 +2756,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [44
 
- <./img/mockups_figma/Docente_solo_-_Mockup.png> <./img/mockups_figma/Docente_solo_-_Figma.png> <./img/mockups_figma/Docentes_-_Mockup.png> <./img/mockups_figma/Docentes_-_Figma.png>]
-<img/mockups_figma/Noticia_sola_-_Mockup.png, id=759, 1734.48pt x 2584.65625pt>
-File: img/mockups_figma/Noticia_sola_-_Mockup.png Graphic file (type png)
-<use img/mockups_figma/Noticia_sola_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Noticia_sola_-_Mockup.png  used on input line 506.
-(pdftex.def)             Requested size: 100.72958pt x 150.10341pt.
-<img/mockups_figma/Noticia_sola_-_Figma.png, id=760, 1734.48pt x 2584.65625pt>
-File: img/mockups_figma/Noticia_sola_-_Figma.png Graphic file (type png)
-<use img/mockups_figma/Noticia_sola_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Noticia_sola_-_Figma.png  used on input line 511.
-(pdftex.def)             Requested size: 100.72958pt x 150.10341pt.
-<img/mockups_figma/Noticias_-_Mockup.png, id=761, 1734.48pt x 3799.19376pt>
+ <./img/mockups_figma/Docentes_-_Mockup.png> <./img/mockups_figma/Docentes_-_Figma.png> <./img/mockups_figma/Docente_solo_-_Mockup.png> <./img/mockups_figma/Docente_solo_-_Figma.png>]
+<img/mockups_figma/Noticias_-_Mockup.png, id=759, 1734.48pt x 3799.19376pt>
 File: img/mockups_figma/Noticias_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Noticias_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Noticias_-_Mockup.png  used on input line 521.
+Package pdftex.def Info: img/mockups_figma/Noticias_-_Mockup.png  used on input line 509.
 (pdftex.def)             Requested size: 68.52046pt x 150.08679pt.
-<img/mockups_figma/Noticias_-_Figma.png, id=762, 1734.48pt x 3799.19376pt>
+<img/mockups_figma/Noticias_-_Figma.png, id=760, 1734.48pt x 3799.19376pt>
 File: img/mockups_figma/Noticias_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Noticias_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Noticias_-_Figma.png  used on input line 526.
+Package pdftex.def Info: img/mockups_figma/Noticias_-_Figma.png  used on input line 514.
 (pdftex.def)             Requested size: 68.52046pt x 150.08679pt.
+<img/mockups_figma/Noticia_sola_-_Mockup.png, id=761, 1734.48pt x 2584.65625pt>
+File: img/mockups_figma/Noticia_sola_-_Mockup.png Graphic file (type png)
+<use img/mockups_figma/Noticia_sola_-_Mockup.png>
+Package pdftex.def Info: img/mockups_figma/Noticia_sola_-_Mockup.png  used on input line 524.
+(pdftex.def)             Requested size: 100.72958pt x 150.10341pt.
+<img/mockups_figma/Noticia_sola_-_Figma.png, id=762, 1734.48pt x 2584.65625pt>
+File: img/mockups_figma/Noticia_sola_-_Figma.png Graphic file (type png)
+<use img/mockups_figma/Noticia_sola_-_Figma.png>
+Package pdftex.def Info: img/mockups_figma/Noticia_sola_-_Figma.png  used on input line 529.
+(pdftex.def)             Requested size: 100.72958pt x 150.10341pt.
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 532.
+Package pdftex.def Info: UTYP.png  used on input line 535.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 532.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 535.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -2799,34 +2799,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [45
 
- <./img/mockups_figma/Noticia_sola_-_Mockup.png> <./img/mockups_figma/Noticia_sola_-_Figma.png> <./img/mockups_figma/Noticias_-_Mockup.png> <./img/mockups_figma/Noticias_-_Figma.png>]
+ <./img/mockups_figma/Noticias_-_Mockup.png> <./img/mockups_figma/Noticias_-_Figma.png> <./img/mockups_figma/Noticia_sola_-_Mockup.png> <./img/mockups_figma/Noticia_sola_-_Figma.png>]
 <img/mockups_figma/Convocatorias_-_Mockup.png, id=773, 1734.48pt x 3047.385pt>
 File: img/mockups_figma/Convocatorias_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Convocatorias_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Convocatorias_-_Mockup.png  used on input line 539.
+Package pdftex.def Info: img/mockups_figma/Convocatorias_-_Mockup.png  used on input line 544.
 (pdftex.def)             Requested size: 85.43224pt x 150.0997pt.
 <img/mockups_figma/Convocatorias_-_Figma.png, id=774, 1734.48pt x 3047.385pt>
 File: img/mockups_figma/Convocatorias_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Convocatorias_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Convocatorias_-_Figma.png  used on input line 544.
+Package pdftex.def Info: img/mockups_figma/Convocatorias_-_Figma.png  used on input line 549.
 (pdftex.def)             Requested size: 85.43224pt x 150.0997pt.
 <img/mockups_figma/Convocatorias_acordeones_-_Mockup.png, id=775, 1734.48pt x 3249.13875pt>
 File: img/mockups_figma/Convocatorias_acordeones_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Convocatorias_acordeones_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Convocatorias_acordeones_-_Mockup.png  used on input line 554.
+Package pdftex.def Info: img/mockups_figma/Convocatorias_acordeones_-_Mockup.png  used on input line 558.
 (pdftex.def)             Requested size: 80.11258pt x 150.072pt.
 <img/mockups_figma/Convocatorias_acordeones_-_Figma.png, id=776, 1734.48pt x 3249.13875pt>
 File: img/mockups_figma/Convocatorias_acordeones_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Convocatorias_acordeones_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Convocatorias_acordeones_-_Figma.png  used on input line 559.
+Package pdftex.def Info: img/mockups_figma/Convocatorias_acordeones_-_Figma.png  used on input line 563.
 (pdftex.def)             Requested size: 80.11258pt x 150.072pt.
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
-Package pdftex.def Info: UTYP.png  used on input line 565.
+Package pdftex.def Info: UTYP.png  used on input line 570.
 (pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
-Package pdftex.def Info: LogoUPV_2023.png  used on input line 565.
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 570.
 (pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
 
 Overfull \hbox (15.11841pt too wide) has occurred while \output is active
@@ -2843,26 +2843,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [46
 
  <./img/mockups_figma/Convocatorias_-_Mockup.png> <./img/mockups_figma/Convocatorias_-_Figma.png> <./img/mockups_figma/Convocatorias_acordeones_-_Mockup.png> <./img/mockups_figma/Convocatorias_acordeones_-_Figma.png>]
-<img/mockups_figma/Evento_-_Mockup.png, id=787, 1734.48pt x 2639.8625pt>
-File: img/mockups_figma/Evento_-_Mockup.png Graphic file (type png)
-<use img/mockups_figma/Evento_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Evento_-_Mockup.png  used on input line 572.
-(pdftex.def)             Requested size: 98.6123pt x 150.08702pt.
-<img/mockups_figma/Evento_-_Figma.png, id=788, 1734.48pt x 2639.8625pt>
-File: img/mockups_figma/Evento_-_Figma.png Graphic file (type png)
-<use img/mockups_figma/Evento_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Evento_-_Figma.png  used on input line 577.
-(pdftex.def)             Requested size: 98.6123pt x 150.08702pt.
-<img/mockups_figma/Eventos_-_Mockup.png, id=789, 1734.48pt x 2561.57pt>
+<img/mockups_figma/Eventos_-_Mockup.png, id=787, 1734.48pt x 2561.57pt>
 File: img/mockups_figma/Eventos_-_Mockup.png Graphic file (type png)
 <use img/mockups_figma/Eventos_-_Mockup.png>
-Package pdftex.def Info: img/mockups_figma/Eventos_-_Mockup.png  used on input line 587.
+Package pdftex.def Info: img/mockups_figma/Eventos_-_Mockup.png  used on input line 577.
 (pdftex.def)             Requested size: 101.62944pt x 150.09161pt.
-<img/mockups_figma/Eventos_-_Figma.png, id=790, 1734.48pt x 2561.57pt>
+<img/mockups_figma/Eventos_-_Figma.png, id=788, 1734.48pt x 2561.57pt>
 File: img/mockups_figma/Eventos_-_Figma.png Graphic file (type png)
 <use img/mockups_figma/Eventos_-_Figma.png>
-Package pdftex.def Info: img/mockups_figma/Eventos_-_Figma.png  used on input line 592.
+Package pdftex.def Info: img/mockups_figma/Eventos_-_Figma.png  used on input line 582.
 (pdftex.def)             Requested size: 101.62944pt x 150.09161pt.
+<img/mockups_figma/Evento_-_Mockup.png, id=789, 1734.48pt x 2639.8625pt>
+File: img/mockups_figma/Evento_-_Mockup.png Graphic file (type png)
+<use img/mockups_figma/Evento_-_Mockup.png>
+Package pdftex.def Info: img/mockups_figma/Evento_-_Mockup.png  used on input line 592.
+(pdftex.def)             Requested size: 98.6123pt x 150.08702pt.
+<img/mockups_figma/Evento_-_Figma.png, id=790, 1734.48pt x 2639.8625pt>
+File: img/mockups_figma/Evento_-_Figma.png Graphic file (type png)
+<use img/mockups_figma/Evento_-_Figma.png>
+Package pdftex.def Info: img/mockups_figma/Evento_-_Figma.png  used on input line 597.
+(pdftex.def)             Requested size: 98.6123pt x 150.08702pt.
 )
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
@@ -2886,7 +2886,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [47
 
- <./img/mockups_figma/Evento_-_Mockup.png> <./img/mockups_figma/Evento_-_Figma.png> <./img/mockups_figma/Eventos_-_Mockup.png> <./img/mockups_figma/Eventos_-_Figma.png>] (desarrollo.tex
+ <./img/mockups_figma/Eventos_-_Mockup.png> <./img/mockups_figma/Eventos_-_Figma.png> <./img/mockups_figma/Evento_-_Mockup.png> <./img/mockups_figma/Evento_-_Figma.png>] (desarrollo.tex
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 23.
@@ -3261,7 +3261,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  98i,22n,107p,1716b,2296s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\resen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (67 pages, 97114459 bytes).
+Output written on main.pdf (67 pages, 97114838 bytes).
 PDF statistics:
  1515 PDF objects out of 1728 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)
