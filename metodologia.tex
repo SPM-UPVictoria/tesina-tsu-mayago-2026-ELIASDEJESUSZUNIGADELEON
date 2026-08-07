@@ -1,53 +1,34 @@
 \section{Metodología}
-\begin{comment}
 
-Los métodos y herramientas utilizadas son la descripción detallada de las etapas
-(o pasos, procedimiento) de desarrollo en que se dividió el proyecto y están
-íntimamente relacionadas con los objetivos operativos. Se compara con una
-receta de cocina, es decir, describir a detalle las actividades y acciones realizadas
-en cada etapa de desarrollo, empleando un orden cronológico y en función de los
-objetivos operativos. Sus características son:
+En este capítulo se describe la metodología que se utilizó para desarrollar el sistema. La elección de la metodología es un paso fundamental en la ingeniería de software, ya que define el marco de trabajo, las reglas y los procedimientos para llevar el proyecto desde su concepción inicial hasta su implementación final. Debido a que este proyecto requería revisiones constantes y la aprobación directa por parte de la dirección, se optó por trabajar con una metodología ágil y flexible basada en prototipos. Esto permitió realizar entregas rápidas y ajustar el diseño antes de comenzar a programar la versión final del portal.
+
+\subsection{Enfoque Metodológico: Prototipado Evolutivo}
+El proyecto se desarrolló siguiendo el modelo de Prototipado Evolutivo \cite{pressman2010software}. De acuerdo con los principios de la ingeniería de software, la idea principal de este enfoque consiste en construir versiones gráficas preliminares (conocidas como \textit{mockups} o prototipos) para presentarlas a los directivos y usuarios clave del sistema. 
+
+A diferencia de las metodologías tradicionales o rígidas, donde los cambios son costosos y difíciles de implementar en etapas avanzadas, el prototipado evolutivo asume de antemano que los requerimientos pueden cambiar a medida que el cliente observa el avance visual del sistema. A través de este modelo, cuando se recibe retroalimentación, el diseño se ajusta y se vuelve a presentar. Este ciclo de revisión se repite de manera iterativa hasta que se aprueba la interfaz en su totalidad; solo entonces se autoriza pasar a la fase de programación del código fuente. Trabajar de esta manera ayudó a evitar retrabajos innecesarios, minimizó los riesgos técnicos y aseguró que el resultado cumpliera exactamente con las expectativas.
+
+Es importante destacar que el modelo de Prototipado Evolutivo, así como la revisión por iteraciones, es el proceso de desarrollo estándar adoptado dentro de la Universidad Autónoma de Tamaulipas (UAT) para la gestión de sus proyectos de software institucionales. Aplicar esta misma metodología garantizó que el flujo de trabajo estuviera completamente alineado con las prácticas internas de la universidad, lo cual facilitó enormemente la comunicación con los directivos y agilizó los tiempos de aprobación en cada entrega.
+
+\subsection{Fases de Trabajo}
+Para organizar mejor el desarrollo y mantener el control del avance, el proyecto se dividió en las siguientes cuatro fases principales:
+
 \begin{itemize}
-\item Descripción detallada de las etapas (o pasos) desarrolladas, las cuales están
-relacionadas con cada objetivo operativos. Dependiendo del número de
-objetivos, será el número de etapas de desarrollo reportadas.
-\item En cada etapa de desarrollo, describir las herramientas académicas, técnicas
-y computacionales que se utilizaron, indicando roles y responsabilidades.
-Además, describir las asignaturas o aprendizajes que se obtuvieron durante tu
-formación académica y fueron útiles en el proceso. Así mismo, describir
-herramientas, equipos, tecnologías, etc., que se utilizaron durante el proyecto o
-se aprendieron en la unidad económica.
+    \item \textbf{Fase 1: Recopilación y Análisis de Requerimientos.} En la primera etapa, se llevaron a cabo reuniones presenciales con la dirección para entender la naturaleza de la información que debía llevar el portal. Durante estas sesiones de trabajo, se definió qué secciones eran prioritarias, cómo debía organizarse la estructura de la información y cuál sería el flujo de navegación principal para los usuarios.
+    
+    \item \textbf{Fase 2: Diseño de Interfaces (UI/UX).} Una vez comprendidos los requerimientos, se crearon los primeros bocetos en pantalla para estructurar visualmente la información. Es fundamental mencionar que se trabajó en estricta coordinación con el departamento de Diseño Gráfico para cumplir con los lineamientos visuales de la universidad. Gracias a esto, se respetó el uso correcto de los colores oficiales institucionales, las tipografías permitidas y se implementó la estructura obligatoria para elementos clave como el encabezado (\textit{header}) y el pie de página (\textit{footer}).
+    
+    \item \textbf{Fase 3: Desarrollo e Implementación.} Al obtener la aprobación definitiva de los diseños gráficos por parte de la dirección, se dio inicio a la etapa de programación del \textit{Frontend}. Los dibujos y prototipos estáticos se convirtieron en código real, estructurando las páginas y dándole vida a los componentes interactivos, tales como los menús desplegables, los carruseles de noticias y los acordeones de información.
+    
+    \item \textbf{Fase 4: Pruebas y Retroalimentación.} Finalmente, las pantallas ya programadas y funcionales se sometieron a una última revisión junto con la dirección. En esta fase terminal se corrigieron detalles visuales menores (como alineaciones y tamaños de fuente), se solucionaron pequeños errores lógicos de código (\textit{bugs}) y se pulió el comportamiento general del sitio hasta obtener la versión definitiva y estable del sistema.
 \end{itemize}
 
-\textit{El informe debe estar soportado por referencias, ademas incluir figuras y tablas. En los siguientes parrafos se ejemplifica como usar dichos elementos. }
+\subsection{Herramientas Tecnológicas}
+Para construir y gestionar el proyecto de manera eficiente, se seleccionaron las siguientes herramientas de software de vanguardia:
 
-De acuerdo con Ivan \cite{Sistema:2018:Ivan}, todos mienten, de la misma forma que Dr. House lo afirma de manera continua a lo largo de las 8 temporadas de la serie. 
-
-Los sistemas de información constituyen un conjunto organizado de recursos —personas, datos, procesos y tecnología— que interactúan para recolectar, procesar, almacenar y distribuir información relevante dentro de una organización. Su propósito principal es apoyar la toma de decisiones, la coordinación y el control, así como facilitar el análisis y la visualización de información estratégica \cite{laudon2020, stair2018}. En el contexto actual, caracterizado por la digitalización y la globalización, los sistemas de información han evolucionado hacia plataformas integradas que permiten la gestión eficiente del conocimiento y la automatización de procesos empresariales \cite{turban2019}. Además, el uso de tecnologías emergentes como la inteligencia artificial y el análisis de datos ha ampliado sus capacidades, permitiendo generar valor a partir de grandes volúmenes de información \cite{davenport2018}.
-
-Por otra parte, la implementación de sistemas de información implica retos importantes relacionados con la alineación estratégica, la seguridad de la información y la gestión del cambio organizacional. Es fundamental que estos sistemas estén alineados con los objetivos del negocio para maximizar su impacto y retorno de inversión \cite{ward2016}. Asimismo, la protección de datos y la ciberseguridad se han convertido en aspectos críticos debido al incremento de amenazas digitales \cite{whitman2018}. Finalmente, el éxito de un sistema de información depende en gran medida de la aceptación por parte de los usuarios y de una adecuada gestión del cambio, lo que requiere capacitación, comunicación efectiva y liderazgo organizacional \cite{heeks2006}.
-
-
-En la figura \ref{fig:my_label}, se muestra una pantalla de una aplicación para contar las calorías de la comida mexicana. (Si la figura se mueve a la siguiente página, es NORMAL, no muevan nada!).
-\begin{figure}[!tbh]
-    \centering
-    \includegraphics[width=0.5\linewidth]{img/calorias1.png}
-    \caption{Aplicacion ``Mexican Food with Chilly'' \cite{Microsoft:Concepto}}
-    \label{fig:my_label}
-\end{figure}
-
-En la tabla \ref{tab:my_label}, se muestra una tabla con el listado de los mejores futbolistas del mundo mundial. 
-
-\begin{table}[!tbh]
-    \centering
-    \begin{tabular}{c|c} \hline
-         Estudiante &  Nacionalidad \\ \hline
-         Lionel Messi & Argentina  \\
-         Cristiano Ronaldo & Portuguesa  \\
-         Hector Hermoso Herrera & Mexicana \\ 
-         \hline \hline
-    \end{tabular}
-    \caption{Otro ejemplo de tabla}
-    \label{tab:my_label}
-\end{table}
-\end{comment}
+\begin{itemize}
+    \item \textbf{Figma:} Se utilizó como la herramienta principal en la etapa de diseño para crear los \textit{mockups} visuales de alta fidelidad, permitiendo visualizar el resultado final antes de escribir el código.
+    \item \textbf{React:} Fue la librería principal de programación elegida para estructurar la interfaz de usuario. Se seleccionó por su capacidad para crear páginas rápidas, dinámicas y divididas en componentes reutilizables.
+    \item \textbf{SharePoint:} Fungió como la plataforma base para el alojamiento, organización y gestión interna del contenido institucional del portal.
+    \item \textbf{Visual Studio Code:} Se empleó como el editor de texto y entorno de desarrollo integrado donde se escribió la totalidad del código del proyecto.
+    \item \textbf{Git y GitHub:} Sirvieron como los sistemas de control de versiones, permitiendo respaldar el progreso del código en la nube de forma segura y llevar un historial detallado de las modificaciones realizadas a lo largo del tiempo.
+\end{itemize}

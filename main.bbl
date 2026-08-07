@@ -669,6 +669,31 @@
       \field{type}{phdthesis}
       \field{year}{2000}
     \endentry
+    \entry{pressman2010software}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4d3f81788d99cf425c4b6e0a454baab0}{%
+           family={Pressman},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Interamericana}%
+      }
+      \strng{namehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{fullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{bibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorbibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authornamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorfullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{title}{Ingenieria de software: Un enfoque practico}
+      \field{year}{2010}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
