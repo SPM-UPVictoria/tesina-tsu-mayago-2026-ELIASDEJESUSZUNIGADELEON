@@ -1,0 +1,28 @@
+Lista de Referencias (En el orden en que aparecen en la Bibliografía de tu PDF)
+
+1. Laudon, Kenneth C. & Laudon, Jane P. (2020). Management Information Systems: Managing the Digital Firm. Pearson.
+2. Turban, Efraim; Pollard, Carol & Wood, Gregory (2019). Information Technology for Management. Wiley.
+3. Jamshidi, Pooyan; Ahmad, Aakash & Pahl, Claus (2013). Cloud Migration Research: A Systematic Review. IEEE.
+4. Microsoft (2024). SharePoint Server 2019 - Product lifecycle information. Enlace: https://learn.microsoft.com/en-us/lifecycle/products/sharepoint-server-2019
+5. Silberschatz, Abraham; Korth, Henry F. & Sudarshan, Shashank (2020). Database System Concepts. McGraw-Hill.
+6. Meta (2024). React - A JavaScript library for building user interfaces. Enlace: https://react.dev/
+7. Bootstrap Core Team (2024). Bootstrap. Enlace: https://getbootstrap.com/
+8. W3C (2018). Web Content Accessibility Guidelines (WCAG) 2.1. Enlace: https://www.w3.org/WAI/WCAG21/quickref/
+9. Silicon Reef (2021). University of Leeds: Intranet Migration and Modernisation on Microsoft 365. Enlace: https://siliconreef.co.uk/case-studies/university-of-leeds/
+10. SharePoint Support (2022). Case Study: Major State University Migrates 2.8 Million Documents to SharePoint Online. Enlace: https://sharepointsupport.com/case-studies/
+11. Flexsin (2019). Digital Transformation at University of Texas at Arlington using SharePoint. Enlace: https://www.flexsin.com/case-studies/
+12. Kushwaha, N. & Vyas, O. P. (2020). Performance Evaluation of Single Page Application architectures for Web Portals. IEEE.
+13. Mell, Peter & Grance, Timothy (2011). The NIST definition of cloud computing. Enlace: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+14. Bisbal, Jesús et al. (1999). Legacy information systems: Issues and directions. IEEE.
+15. Marston, Sean et al. (2011). Cloud computing—The business perspective. Elsevier.
+16. Kothari, Tony & Curran, Patrick (2017). SharePoint 2016 User's Guide. Apress.
+17. Rad, Vahid (2023). Modernizing Enterprise Collaboration with Microsoft SharePoint Online: A Comprehensive Analysis.
+18. Mikowski, Michael S. & Powell, Josh C. (2013). Single Page Web Applications: JavaScript end-to-end. Manning Publications.
+19. Flanagan, David (2020). JavaScript: The Definitive Guide. O'Reilly Media.
+20. Banks, Alex & Porcello, Eve (2017). Learning React: Functional Web Development with React and Redux. O'Reilly Media.
+21. Marcotte, Ethan (2014). Responsive Web Design. A Book Apart.
+22. W3C (2024). Evaluating Web Accessibility Overview. Enlace: https://www.w3.org/WAI/test-evaluate/
+23. Codd, Edgar F. (1990). The Relational Model for Database Management: Version 2. Addison-Wesley.
+24. Fielding, Roy Thomas (2000). Architectural Styles and the Design of Network-Based Software Architectures. Univ. of California.
+
+Recomendación: Toma capturas solo de las más importantes (como las de React, Bootstrap, WCAG, Microsoft y NIST) para que no te satures haciendo 24 capturas.
